@@ -1,0 +1,259 @@
+/* /Layout/MainLayout.razor.rz.scp.css */
+.page[b-qr7z8mkyn8] {
+    display: flex;
+    flex-direction: column;
+}
+
+main[b-qr7z8mkyn8] {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.bodier[b-qr7z8mkyn8] {
+    font-family: Arial, sans-serif;
+    background-color: #F1BF32;
+    background-image: linear-gradient(40deg, #f8e4ac 0%, #e6b967 90%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 30rem;
+}
+
+.topbar[b-qr7z8mkyn8] {
+    flex-basis: 5%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-image: linear-gradient(120deg, #f0c756 0%, #8d6825 70%);
+    overflow: hidden;
+}
+
+/*.show-menu {
+    max-height: 500px;*/ /* Ajusta seg�n sea necesario */
+/*}*/
+
+/*@media (min-width: 641px) {
+    .page {
+        flex-direction: column;
+    }
+
+    .topbar {
+        width: 100%;
+        height: 5%;
+        display: flex;
+        flex-direction: row;
+        position: sticky;
+        top: 0;
+        align-items: baseline;
+    }
+}*/
+
+#blazor-error-ui[b-qr7z8mkyn8] {
+    background: lightyellow;
+    bottom: 0;
+    box-shadow: 0 -1px 2px rgba(0, 0, 0, 0.2);
+    display: none;
+    left: 0;
+    padding: 0.6rem 1.25rem 0.7rem 1.25rem;
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+}
+
+    #blazor-error-ui .dismiss[b-qr7z8mkyn8] {
+        cursor: pointer;
+        position: absolute;
+        right: 0.75rem;
+        top: 0.5rem;
+    }
+
+.f0[b-qr7z8mkyn8] {
+    flex: 1;
+    justify-content: flex-start;
+    color: #7a5a1e;
+    font-size: small;
+    font-weight: 700;
+    font-family: Verdana, sans-serif;
+}
+
+.f1[b-qr7z8mkyn8] {
+    display: flex;
+    flex: 4;
+    justify-content: flex-start;
+}
+
+.f11[b-qr7z8mkyn8] {
+    display: flex;
+    justify-content: center;
+    flex: 1;
+    padding: 3px;
+    margin: 10px;
+}
+
+    .f11 a[b-qr7z8mkyn8] {
+        text-decoration: none;
+        color: #a17728;
+        align-items: center;
+    }
+
+.f2[b-qr7z8mkyn8] {
+    display: flex;
+    flex: 3;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
+.logo-footer[b-qr7z8mkyn8] {
+    flex: 1;
+    padding: 3px;
+    margin: 3px 30px;
+}
+/* /Layout/NavMenu.razor.rz.scp.css */
+/*.navbar-toggler {
+    appearance: none;
+    cursor: pointer;
+    width: 3.5rem;
+    height: 2.5rem;
+    color: white;
+    position: absolute;
+    top: 0.5rem;
+    right: 1rem;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    background: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28255, 255, 255, 0.55%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e") no-repeat center/1.75rem rgba(255, 255, 255, 0.1);
+}
+
+    .navbar-toggler:checked {
+        background-color: rgba(255, 255, 255, 0.5);
+    }
+*/
+.top-row[b-7csxf3x4u7] {
+    height: 3.5rem;
+    background-color: rgba(0,0,0,0.4);
+}
+
+.navbar-brand[b-7csxf3x4u7] {
+    font-size: 1.1rem;
+}
+
+.bi[b-7csxf3x4u7] {
+    display: inline-block;
+    position: relative;
+    width: 1.8rem;
+    height: 1.8rem;
+    margin-right: 0.75rem;
+    top: -1px;
+    background-size: cover;
+}
+
+.bi-house-door-fill-nav-menu[b-7csxf3x4u7] {
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' fill='white' class='bi bi-house-door-fill' viewBox='0 0 16 16'%3E%3Cpath d='M6.5 14.5v-3.505c0-.245.25-.495.5-.495h2c.25 0 .5.25.5.5v3.5a.5.5 0 0 0 .5.5h4a.5.5 0 0 0 .5-.5v-7a.5.5 0 0 0-.146-.354L13 5.793V2.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.293L8.354 1.146a.5.5 0 0 0-.708 0l-6 6A.5.5 0 0 0 1.5 7.5v7a.5.5 0 0 0 .5.5h4a.5.5 0 0 0 .5-.5Z'/%3E%3C/svg%3E");
+}
+
+.bi-plus-square-fill-nav-menu[b-7csxf3x4u7] {
+    background-image: url("images/arrow-down.png");
+}
+
+.bi-list-nested-nav-menu[b-7csxf3x4u7] {
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' fill='white' class='bi bi-list-nested' viewBox='0 0 16 16'%3E%3Cpath fill-rule='evenodd' d='M4.5 11.5A.5.5 0 0 1 5 11h10a.5.5 0 0 1 0 1H5a.5.5 0 0 1-.5-.5zm-2-4A.5.5 0 0 1 3 7h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm-2-4A.5.5 0 0 1 1 3h10a.5.5 0 0 1 0 1H1a.5.5 0 0 1-.5-.5z'/%3E%3C/svg%3E");
+}
+
+.nav-item[b-7csxf3x4u7] {
+    font-size: 0.9rem;
+    padding-top: 0.7rem;
+    padding-bottom: 0.4rem;
+    font-size: large;
+}
+
+    .nav-item:first-of-type[b-7csxf3x4u7] {
+        padding-top: 1rem;
+    }
+
+    .nav-item:last-of-type[b-7csxf3x4u7] {
+        padding-bottom: 1rem;
+    }
+
+    .nav-item[b-7csxf3x4u7]  .nav-link {
+        color: #d7d7d7;
+        background: none;
+        border: none;
+        border-radius: 4px;
+        height: 3rem;
+        display: flex;
+        align-items: center;
+        line-height: 3rem;
+        width: 100%;
+    }
+
+    .nav-item[b-7csxf3x4u7]  a.active {
+        background-color: rgba(255, 255, 255, 0.1);
+        color: white;
+    }
+
+    .nav-item[b-7csxf3x4u7]  .nav-link:hover {
+        background-color: rgba(255,255,255,0.1);
+        color: white;
+    }
+
+.nav-scrollable[b-7csxf3x4u7] {
+    display: none;
+}
+
+/*.navbar-toggler:checked ~ .nav-scrollable {
+    display: block;
+}
+
+@media (min-width: 641px) {
+    .navbar-toggler {
+        display: none;
+    }
+
+    .nav-scrollable {*/
+        /* Never collapse the sidebar for wide screens */
+        /*display: block;*/
+        /* Allow sidebar to scroll for tall menus */
+        /*height: calc(100vh - 3.5rem);
+        overflow-y: auto;
+    }
+}*/
+
+/* Logo Cirsa Negro */
+.logo-header[b-7csxf3x4u7] {
+    position: relative;
+    width: 20rem;
+    height: 5.6rem;
+    left: 2rem;
+    top: -0.3rem;
+}
+
+.logo-login[b-7csxf3x4u7] {
+    position: relative;
+    width: 1.8rem;
+    height: 1.8rem;
+    margin-right: 1rem;
+    box-shadow: 2px 2px 2px 2px #555555;
+    text-shadow: #888888;
+}
+
+.flexo[b-7csxf3x4u7] {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.flexend[b-7csxf3x4u7] {
+    margin-left: 8rem;
+    margin-right: 0;
+}
+
+.reglog[b-7csxf3x4u7] {
+    display: flex;
+    flex-direction: column;
+}
+
+.cen[b-7csxf3x4u7] {
+    margin-left: 1rem;
+}
+
+
