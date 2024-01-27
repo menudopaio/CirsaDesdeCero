@@ -42,6 +42,6 @@
     {
         // Aquí puedes realizar la lógica de comparación con TuModelo
         // Por ejemplo, asignar el valor del input a la propiedad Id de TuModelo
-        ViewModel.ModeloUsuario.Id = int.TryParse(ViewModel.Email, out var parsedValue) ? parsedValue : 0;
+        CirsaDesdeCero.CirsaViewModel.ViewModel.ModeloUsuario.Id = int.TryParse(ViewModel.Email, out var parsedValue) ? parsedValue : 0;
     }
 }
