@@ -1,5 +1,8 @@
 @page "/login"
 
+@using Model
+
+@inject CirsaViewModel ViewModel
 
 <div class="login-out-container">
     <div class="login-page login-left">
@@ -18,7 +21,7 @@
             <h2>LOG IN</h2>
             <form class="login-form">
                 <div class="form-group">
-                    <input class="email" placeholder="     Email or username" type="text" id="username" name="username" required>
+                    <input class="email" @bind="ViewModel.Email" placeholder="     Email or username" type="text" id="username" name="username" required>
                 </div>
                 <div class="form-group">
                     <input class="pass" placeholder="     Password" type="password" id="password" name="password" required>
@@ -34,3 +37,11 @@
     </div>
 </div>
 
+@code {
+    private void CompararInput()
+    {
+        // Aquí puedes realizar la lógica de comparación con TuModelo
+        // Por ejemplo, asignar el valor del input a la propiedad Id de TuModelo
+        CirsaDesdeCero.CirsaViewModel.ViewModel.ModeloUsuario.Id = int.TryParse(ViewModel.Email, out var parsedValue) ? parsedValue : 0;
+    }
+}
