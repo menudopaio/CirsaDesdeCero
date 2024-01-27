@@ -1,5 +1,5 @@
 // CirsaViewModel.cs
-namespace Model
+namespace CirsaDesdeCero.Model
 {
     public class CirsaViewModel
     {

@@ -1,4 +1,4 @@
-namespace Model
+namespace CirsaDesdeCero.Model
 {
     // TuModelo.cs
     public class User

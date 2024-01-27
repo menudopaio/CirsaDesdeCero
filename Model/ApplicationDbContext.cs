@@ -1,4 +1,4 @@
-namespace Model
+namespace CirsaDesdeCero.Model
 {
     // ApplicationDbContext.cs
     using Microsoft.EntityFrameworkCore;
