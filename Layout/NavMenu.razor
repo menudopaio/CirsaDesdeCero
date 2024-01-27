@@ -1,39 +1,32 @@
-﻿<div class="top-row ps-3 navbar navbar-dark">
-    <div class="container-fluid">
-        <a class="navbar-brand" href="">CirsaDesdeCero</a>
-        <button title="Navigation menu" class="navbar-toggler" @onclick="ToggleNavMenu">
-            <span class="navbar-toggler-icon"></span>
-        </button>
+﻿<div class="flexo">
+    <div class="nav-item px-4">
+        <a href=""><img class="logo-header" src="/images/logo-negro.png" alt="Logo Cirsa" /></a>
     </div>
-</div>
-
-<div class="@NavMenuCssClass nav-scrollable" @onclick="ToggleNavMenu">
-    <nav class="flex-column">
-        <div class="nav-item px-3">
+    <div class="flexo flexend">
+        <div class="cen nav-item px-3 py-3">
             <NavLink class="nav-link" href="" Match="NavLinkMatch.All">
                 <span class="bi bi-house-door-fill-nav-menu" aria-hidden="true"></span> Home
             </NavLink>
         </div>
-        <div class="nav-item px-3">
-            <NavLink class="nav-link" href="counter">
-                <span class="bi bi-plus-square-fill-nav-menu" aria-hidden="true"></span> Counter
+
+        <div class="cen nav-item px-3 py-3">
+            <NavLink class="nav-link" href="#">
+                <span class="bi bi-plus-square-fill-nav-menu" aria-hidden="true"></span> Products
             </NavLink>
         </div>
-        <div class="nav-item px-3">
+
+        <div class="cen nav-item px-3 py-3">
             <NavLink class="nav-link" href="weather">
                 <span class="bi bi-list-nested-nav-menu" aria-hidden="true"></span> Weather
             </NavLink>
         </div>
-    </nav>
+        <div class="nav-item px-3 py-3 flexend reglog">
+            <NavLink class="nav-link" href="register">
+                <img class="logo-login" src="/images/register.png" alt="Register icon" />Register
+            </NavLink>
+            <NavLink class="nav-link" href="login">
+                <img class="logo-login" src="/images/login.png" alt="Login icon" />Log In
+            </NavLink>
+        </div>
+    </div>
 </div>
-
-@code {
-    private bool collapseNavMenu = true;
-
-    private string? NavMenuCssClass => collapseNavMenu ? "collapse" : null;
-
-    private void ToggleNavMenu()
-    {
-        collapseNavMenu = !collapseNavMenu;
-    }
-}

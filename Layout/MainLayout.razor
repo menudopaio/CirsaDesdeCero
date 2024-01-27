@@ -1,16 +1,47 @@
 ﻿@inherits LayoutComponentBase
+
 <div class="page">
-    <div class="sidebar">
+    <div class="topbar">
         <NavMenu />
     </div>
 
     <main>
-        <div class="top-row px-4">
-            <a href="https://learn.microsoft.com/aspnet/core/" target="_blank">About</a>
-        </div>
-
-        <article class="content px-4">
+        <article class="bodier">
             @Body
         </article>
+
     </main>
+    <div class="px-4 footer">
+        <div class="footer f0">
+            © 2024 CIRSA
+        </div>
+        <div class="footer f1">
+            <div class="f11">
+                <a href="https://www.cirsa.com/actualidad/" target="_blank">News</a>
+            </div>
+            <div class="f11">
+                <a href="https://www.cirsa.com/areas-de-negocio/" target="_blank">Products</a>
+            </div>
+            <div class="f11">
+                <a href="https://www.cirsa.com/contacto/" target="_blank">Contact</a>
+            </div>
+            <div class="f11">
+                <a href="https://www.cirsa.com/trabaja-con-nosotros/" target="_blank">Work With Us</a>
+            </div>
+        </div>
+        <div class="footer f2">
+            <NavLink class="f22" href="https://www.instagram.com/casinocirsavalencia" target="_blank">
+                <img class="logo-footer" src="/images/instagram.png" alt="Instagram" />
+            </NavLink>
+            <NavLink class="f22" href="https://www.facebook.com/casinocirsavalencia/?locale=es_ES" target="_blank">
+                <img class="logo-footer" src="/images/facebook.png" alt="Facebook" />
+            </NavLink>
+            <NavLink class="f22" href="https://twitter.com/casinovalencia" target="_blank">
+                <img class="logo-footer" src="/images/twitter.png" alt="Twitter" />
+            </NavLink>
+            <NavLink class="f22" href="mailto:info@cirsa.com">
+                <img class="logo-footer" src="/images/envelope-plus.png" alt="Send e-mail" />
+            </NavLink>
+        </div>
+    </div>
 </div>
