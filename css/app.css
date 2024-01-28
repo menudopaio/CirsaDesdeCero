@@ -212,14 +212,14 @@ h1:focus {
 
 
 .email::placeholder {
-    background-image: url("../images/email.png");
+    background-image: url("../../images/email.png");
     background-size: 18px 18px;
     background-repeat: no-repeat;
     background-position: left center;
 }
 
 .pass::placeholder {
-    background-image: url("../images/lock2.png");
+    background-image: url("../wwwroot/images/lock2.png");
     background-size: 18px 18px;
     background-repeat: no-repeat;
     background-position: left center;
