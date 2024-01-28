@@ -212,7 +212,7 @@ h1:focus {
 
 
 .email::placeholder {
-    background-image: url("../../images/email.png");
+    background-image: url("../images/email.png");
     background-size: 18px 18px;
     background-repeat: no-repeat;
     background-position: left center;
