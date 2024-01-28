@@ -1,4 +1,4 @@
-// CirsaViewModel.cs
+/* // CirsaViewModel.cs
 namespace Model
 {
     public class CirsaViewModel
@@ -8,3 +8,4 @@ namespace Model
 
     }
 }
+ */

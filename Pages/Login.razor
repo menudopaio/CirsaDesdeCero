@@ -1,8 +1,7 @@
 @page "/login"
 
-@using Model
-
-@inject CirsaViewModel ViewModel
+@* @using Model
+@inject CirsaViewModel ViewModel *@
 
 <div class="login-out-container">
     <div class="login-page login-left">
@@ -27,7 +26,7 @@
                     <input class="pass" placeholder="     Password" type="password" id="password" name="password" required>
                 </div>
                 <div class="form-group">
-                    <button @onclick="CompararInput" type="submit" >Log In</button>
+                    <button @* @onclick="CompararInput" *@ type="submit" >Log In</button>
                 </div>
             </form>
         </div>
@@ -37,11 +36,11 @@
     </div>
 </div>
 
-@code {
+@* @code {
     private void CompararInput()
     {
         // Aquí puedes realizar la lógica de comparación con TuModelo
         // Por ejemplo, asignar el valor del input a la propiedad Id de TuModelo
         CirsaDesdeCero.CirsaViewModel.ViewModel.ModeloUsuario.Id = int.TryParse(ViewModel.Email, out var parsedValue) ? parsedValue : 0;
     }
-}
+} *@
