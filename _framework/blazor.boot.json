@@ -1,7 +1,7 @@
 {
   "mainAssemblyName": "CirsaDesdeCero",
   "resources": {
-    "hash": "sha256-UcqJDeCo4dZQsHGTlDLtEwS/YzW8k7LD8Pp+sPXCfNU=",
+    "hash": "sha256-Yl9bN1fCUAr67sFtvH28ot/R5og9mZxYh/DFtOS81Vs=",
     "jsModuleNative": {
       "dotnet.native.8.0.1.nblktrcelu.js": "sha256-qB9w6LAIvHgnin9aZN4jgLjuqmKThIkKC61aC6hCkJ0="
     },
@@ -17,8 +17,8 @@
       "icudt_no_CJK.dat": "sha256-L7sV7NEYP37/Qr2FPCePo5cJqRgTXRwGHuwF5Q+0Nfs="
     },
     "assembly": {
-      "CirsaDesdeCero.wasm": "sha256-PPXiGf8ZSgoOfAkO77dk0P9jPiUJcbMIPIWHxWHF5oU=",
-      "Microsoft.AspNetCore.Components.wasm": "sha256-SZZXog9eGYtkUdsTSJHEdvkS09G7njQGDahijy1CLlU=",
+      "CirsaDesdeCero.wasm": "sha256-WvRDiPtSvjzoVA+R77E9Mi9DZZ4gmnIH9+RVmsEWLO8=",
+      "Microsoft.AspNetCore.Components.wasm": "sha256-wjHJmhkRBwKytv8e4wXUBp1utSp8B+FAOV6xHaeSuP4=",
       "Microsoft.AspNetCore.Components.Web.wasm": "sha256-SzLeEfqdg4a49knCsNAsUwiZAcQnEeEi7bfRxP0p9sU=",
       "Microsoft.AspNetCore.Components.WebAssembly.wasm": "sha256-QRo9wN+gd5qqmZFiGyMTQbvqHCAt62nXolIZaL7npH4=",
       "Microsoft.Data.Sqlite.wasm": "sha256-bOiBNcg3CCy3TlGuavyqqoZGSPSPcx9vj36SEiyR6kc=",
@@ -70,7 +70,7 @@
       "System.Net.Primitives.wasm": "sha256-Nu6m3MQIUuJEzGVfV0iFN01Z7TZHC4pV560Q2K38J3E=",
       "System.ObjectModel.wasm": "sha256-b3s38g6tDs/T4X2M732Nx5dbMQD/L0IYQ2SsDzoCDOc=",
       "System.Private.CoreLib.wasm": "sha256-mfXc/UfC9jkOjB5TY1Q1f+GQSlNViOKZIpZBYr7EzS8=",
-      "System.Private.Uri.wasm": "sha256-rCqAgkPC83VKu1BShANxvU8n7AljSN7AOtGgGo6VQ/o=",
+      "System.Private.Uri.wasm": "sha256-FuRRtqUkyAb7LfvXF3Nzamn7/6OBqNhZb9/l30LbIUo=",
       "System.Private.Xml.wasm": "sha256-R0wKKZkagL13IeMpwmdqcFyeYXZfgZuDpp0u72DKIzM=",
       "System.Runtime.InteropServices.JavaScript.wasm": "sha256-R+97liBo/DJjks50Sa0m37XrTjVl87GVVHePdbrF1QY=",
       "System.Runtime.InteropServices.RuntimeInformation.wasm": "sha256-lQ3lfJYr2OX3X2gYAvZc38yKmh9ZYWHiHTd+eqSSXhw=",
