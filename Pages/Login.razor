@@ -19,7 +19,7 @@
             <h2>LOG IN</h2>
             <form class="login-form">
                 <div class="form-group">
-                    <input class="email" @bind="email" placeholder="     Email or username" type="text" id="username" name="username" required>
+                    <input class="email" @bind="username" placeholder="     Email or username" type="text" id="username" name="username" required>
                 </div>
                 <div class="form-group">
                     <input class="pass" @bind="password" placeholder="     Password" type="password" id="password" name="password" required>
@@ -37,18 +37,17 @@
 
 
 @code {
-    string emailExample = "example";
+    string usernameExample = "example";
     string passwordExample = "qwertyuiop";
 
-    string email;
+    string username;
     string password;
 
     void VerificarInformacion ()
     {
-        if (email == emailExample && password == passwordExample)
+        if (username == usernameExample && password == passwordExample)
         {
-            string url = $"/dashboard/{Uri.EscapeDataString(email)}";
-            NavigationManager.NavigateTo(url);
+            NavigationManager.NavigateTo("/dashboard");
         }
     }
 }
