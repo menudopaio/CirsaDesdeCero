@@ -3,6 +3,9 @@
 ##
 ## Get latest from `dotnet new gitignore`
 
+# Cosas propias
+AUTO.md
+
 # dotenv files
 .env
 
