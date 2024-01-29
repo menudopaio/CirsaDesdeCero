@@ -48,7 +48,7 @@
         if (email == emailExample && password == passwordExample)
         {
             string url = $"/dashboard/{Uri.EscapeDataString(email)}";
-            NavigationManager.NavigateTo(url)
+            NavigationManager.NavigateTo(url);
         }
     }
 }
