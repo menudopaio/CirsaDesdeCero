@@ -9,7 +9,7 @@ I started this webpage with no prior knowledge on .Net or Blazor, but learning t
 
 The main issue with github pages and Blazor applications is that:
 1. Github modifies some files when deploying.
-   --> In the root of the project, in the terminal, execute: "* binary" >> .attributes
+   --> In the root of the project, in the terminal, execute: ' "* binary" >> .attributes '
    The .attributes file will tell github to treat all files as binary files, so it will not modify them.
    
 2. Github treats some files as jekyll files.
