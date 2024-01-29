@@ -1,6 +1,6 @@
 [![Deploy to Github Pages](https://github.com/menudopaio/CirsaDesdeCero/actions/workflows/main.yml/badge.svg)](https://github.com/menudopaio/CirsaDesdeCero/actions/workflows/main.yml)
 
-# Cirsa Tech Hub ![A ver](https://jumprecruits.com/wp-content/uploads/2023/04/logo-website-file-globe-icon-svg-wikimedia-commons-21-600x600.png)
+# Cirsa Tech Hub ![A ver](https://jumprecruits.com/wp-content/uploads/2023/04/logo-website-file-globe-icon-svg-wikimedia-commons-21-600x600.png){width=50px}
 ## Test Username: example
 ## Test Password: qwertyuiop
 [https://menudopaio.github.io/CirsaDesdeCero](https://menudopaio.github.io/CirsaDesdeCero)
