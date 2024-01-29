@@ -47,7 +47,7 @@
     {
         if (username == usernameExample && password == passwordExample)
         {
-            string url = $"/CirsaDesdeCero/dashboard/{{username}}";
+            string url = $"/CirsaDesdeCero/dashboard/{username}";
             NavigationManager.NavigateTo(url);
         }
     }
