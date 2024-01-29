@@ -1,6 +1,6 @@
 [![Deploy to Github Pages](https://github.com/menudopaio/CirsaDesdeCero/actions/workflows/main.yml/badge.svg)](https://github.com/menudopaio/CirsaDesdeCero/actions/workflows/main.yml)
 
-# Cirsa Tech Hub ![A ver](https://jumprecruits.com/wp-content/uploads/2023/04/logo-website-file-globe-icon-svg-wikimedia-commons-21-600x600.png){width=50px}
+# Cirsa Tech Hub
 ## Test Username: example
 ## Test Password: qwertyuiop
 [https://menudopaio.github.io/CirsaDesdeCero](https://menudopaio.github.io/CirsaDesdeCero)
@@ -22,8 +22,4 @@ The main issue with github pages and Blazor applications is that:
 
 The last setback I had was creating a workflow. Before this project I even didn't know about their existence. They are very powerfull, but as with anything, you need to know how to use them. I solved this by checking many people blazor projects to understand what was going on, and also watching many videos (finding the solution again in [THE](https://www.youtube.com/watch?v=nNxII6jvPvQ) same video as before. All in 16 minutes. The deal is to find it!
 
-For creating a workflow, you need to automate the whole process of what you would do yourself: checkout the branch that contains the project, setup dotnet, install wasm tools, publish it and commit it to github pages using your token. In my case I finally added to the workflow the creation of the .nojekyll file and the 404 file and the routes thing, as in the video, but it's not needed to automate this.
-
-
-
-
+For creating a workflow, you need to automate the whole process of what you would do yourself: checkout the branch that contains the project, setup dotnet, install wasm tools, publish it and commit it to github pages using your token. In my case I finally added to the workflow the creation of the .nojekyll file and the 404 file and the routes issue, as in the video, but it's not needed to automate this.
