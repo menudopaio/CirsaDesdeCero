@@ -1,6 +1,6 @@
 [![Deploy to Github Pages](https://github.com/menudopaio/CirsaDesdeCero/actions/workflows/main.yml/badge.svg)](https://github.com/menudopaio/CirsaDesdeCero/actions/workflows/main.yml)
 
-# Cirsa Tech Hub ![A ver](https://www.google.com/url?sa=i&url=https%3A%2F%2Fjumprecruits.com%2Fvoices-unlocked-with-guillermo-rueda%2Flogo-website-file-globe-icon-svg-wikimedia-commons-21%2F&psig=AOvVaw2AeG57ATMPpwn1ar7aMMpp&ust=1706644431479000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCIidwY2wg4QDFQAAAAAdAAAAABAI)
+# Cirsa Tech Hub ![A ver](https://jumprecruits.com/wp-content/uploads/2023/04/logo-website-file-globe-icon-svg-wikimedia-commons-21-600x600.png)
 ## Test Username: example
 ## Test Password: qwertyuiop
 [https://menudopaio.github.io/CirsaDesdeCero](https://menudopaio.github.io/CirsaDesdeCero)
