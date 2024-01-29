@@ -5,7 +5,8 @@
     // Variable only for representation purposes. Adjust to real variables values
     private double accumulatedEarnings = 1468.26;
     private int userID = 10;
-    private string userUsername = "example";
+    [Parameter]
+    public string userUsername { get; set; } = "example";
     private int clientsRegisteredByLink = 131;
     private int ordersReceived = 37;
     private int totalSoldProducts = 23;
