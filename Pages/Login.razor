@@ -40,14 +40,14 @@
     string usernameExample = "example";
     string passwordExample = "qwertyuiop";
 
-    string username;
+    public string username;
     string password;
 
     void VerificarInformacion ()
     {
         if (username == usernameExample && password == passwordExample)
         {
-            string url = $"/CirsaDesdeCero/dashboard/{{username}}"
+            string url = $"/CirsaDesdeCero/dashboard/{{username}}";
             NavigationManager.NavigateTo(url);
         }
     }
