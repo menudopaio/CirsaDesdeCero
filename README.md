@@ -20,12 +20,13 @@ The main issue with github pages and Blazor applications is that:
    --> In the `<base>` tag in `index.html`, change `("/")` for `("/YourProjectName/")`
    Github deploys your webpage on `username.github.io/YourProjectName`, so your root is this one, insted.
 
-The last setback I had was creating a workflow. Before this project I even didn't know about their existence. They are very powerfull, but as with anything, you need to know how to use them. I solved this by checking many people blazor projects to understand what was going on, and also watching many videos (finding the solution again in [THE](https://www.youtube.com/watch?v=nNxII6jvPvQ) same video as before. All in 16 minutes. The issue is to find it!
+The last setback I had was creating a workflow. Before this project I even didn't know about their existence. They are very powerfull, but as with anything, you need to know how to use them. I solved this by checking many people blazor projects to understand what was going on, and also watching many videos (finding the solution again in [THE](https://www.youtube.com/watch?v=nNxII6jvPvQ) same video as before.) All in 16 minutes. The issue is to find it!
 
 For creating a workflow, you need to automate the whole process of what you would do yourself: checkout the branch that contains the project, setup dotnet, install wasm tools, publish it and commit it to github pages using your token. In my case I finally also added to the workflow the creation of the .nojekyll file and the 404 file and the routes issue, as in the video, but it's not needed to automate this.
 
 
 Since this is a static webpage with no backend, none of the information provided in any form is going to store.
-From the `home` page, you could register by either clicking on the `Register` button or on the `Join In` button. In the home page we also find links to some company external departments, such as other products, contact media, or news. Registering is not possible, but you can use the test username and password in the `Login` section to check the website functionalities.
+From the `home` page, you could register by either clicking on the `Register` button or by the `Join In` button. In the home page we also find links to some company external departments, such as other products, contact, media, or news. Registering is not possible, but you can use the provided username and password  to log in and check the website functionalities.
 
-Once you log in with the provided username and password, you can see a dashboard with some of the information of your account, like your unique affiliate link, your current balance, where is people buying your products from, and other useful information. Of course, all the information is just sample variables, since we cannot access a database from github.
+Once you log in, you can see a dashboard with some of the information of your account, like your unique affiliate link, your current balance, where is people buying your products from, and other useful information. Of course, all the information is just sample variables, since we cannot access a database from github.
+
