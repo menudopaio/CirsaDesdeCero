@@ -30,3 +30,6 @@ From the `home` page, you could register by either clicking on the `Register` bu
 
 Once you log in, you can see a dashboard with some of the information of your account, like your unique affiliate link, your current balance, where is people buying your products from, and other useful information. Of course, all the information is just sample variables, since we cannot access a database from github.
 
+Besides all of your account information, there is a section to edit some styles of your dashboard page. Clicking on the top left corner image you can change the font family, color and font weight of part of the text in your dashboard, as long as the background color of the dashboard, from some dropdown options. As with any other `form` in github, this will not save the changes.
+
+Finally, you can share your unique affiliate link, so anyone can register through it, and buy products making you earn a comission for each sale.
