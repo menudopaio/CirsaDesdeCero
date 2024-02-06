@@ -30,6 +30,8 @@ Since this is a static webpage with no backend, none of the information provided
 ### Webpage flow
 From the `Home` page, you can register by either clicking on the `Register` button or by the `Join In` button. In the home page we also find links to some company external departments, such as other products, contact, media, or news. Registering is not possible, but you can use the provided username and password  to log in and check the website functionalities.
 
+<img src="readmeImages/home.png" alt="Home page">
+
 Once you log in, you can see a dashboard with some of the information of your account, like your unique affiliate link, how many people registered through your link, your current balance, where is people buying your products from, and other useful information. Of course, all the information is just sample variables, since we cannot access a database from github.
 
 Besides all of your account information, there is a section to edit some styles of your dashboard page. They will also apply to your registration affilliate link. Clicking on the top left corner image you can change the font family, color and font weight of part of the text in your dashboard and the affilliates registration page, as long as the background color of the dashboard and the affiliates registration page, from some dropdown options. As with any other `form` in github, this will not save the changes.
