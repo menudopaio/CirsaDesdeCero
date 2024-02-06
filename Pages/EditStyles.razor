@@ -5,7 +5,7 @@
     // Variable only for representation purposes. Adjust to real variables values
     private double accumulatedEarnings = 1468.26;
     private int userID = 10;
-    private string userUsername = "example";
+    private string userUsername = "exampleUsername";
     private int clientsRegisteredByLink = 131;
     private int ordersReceived = 37;
     private int totalSoldProducts = 23;
@@ -20,13 +20,21 @@
     private List<string> Color = new List<string> { "darkgreen", "darkmagenta", "darkblue", "darkcyan", "darkolivegreen", "darkgoldenrod", "black" };
     private List<string> FontWeight = new List<string> { "100", "200", "300", "400", "500", "600", "700", "800", "900" };
     private List<string> BackgroundColor = new List<string> { "lightcoral", "lightsalmon", "lightcyan", "lightgreen", "lightpink", "lightseagreen", "lightskyblue", "lightgoldenrodyellow" };
+    
+    // Example customization (no backend)
+    private List<string> exampleCustomization = new List<string> { "Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif", "darkcyan", "400", "lightskyblue" };
 
     @inject NavigationManager NavigationManager
+    @inject NavigationManager RedirectManager
     private string rutaActual = "";
+    private string baseUri = "";
     protected override void OnInitialized()
     {
         // Obtener la ruta actual usando NavigationManager
         rutaActual = NavigationManager.Uri;
+
+        // Obtener la base URI usando RedirectManager
+        baseUri = RedirectManager.BaseUri;
 
         // Inicializar el diccionario
         foreach (var editable in editables)
@@ -45,7 +53,6 @@
                 case "background-color":
                     editablesDict.Add(editable, BackgroundColor);
                     break;
-                // Agrega más casos según sea necesario para otras propiedades
             }
         }
     }
@@ -71,7 +78,10 @@
                 </div>
             }
         </div>
-        <button type="submit">Save</button>
+        <div class="editStylesButtons">
+            <button type="submit">Check View</button>
+            <button type="submit">Save</button>
+        </div>
     </form>
     <div class="child c1 r1 child11">
         <img src="images/style-icon.png" alt="Configuration icon" title="Edit your page!" />       
@@ -87,8 +97,8 @@
     <div class="child c2 r1 child21">
         <img src="images/url-icon.png" alt="Url icon" title="Unique affiliate URL" />
         <div class="dashboard-url-text">
-            <label for="@rutaActual">AFFILIATE UNIQUE URL</label>
-            <input type="text" id="@rutaActual" name="@rutaActual" value="@rutaActual" disabled />
+            <label for="@baseUri/dashboard/{userUsername}/clientRegister">AFFILIATE UNIQUE URL</label>
+            <input type="@($"{baseUri}/dashboard/{userUsername}/clientRegister")" name="@($"{baseUri}/dashboard/{userUsername}/clientRegister")" value="@($"{baseUri}/dashboard/{userUsername}/clientRegister")" disabled />
         </div>
     </div>
     <div class="child c2 r2 child22">

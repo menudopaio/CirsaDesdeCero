@@ -37,7 +37,7 @@
 
 
 @code {
-    string usernameExample = "example";
+    string usernameExample = "exampleUsername";
     string passwordExample = "qwertyuiop";
 
     public string? username;
@@ -47,7 +47,10 @@
     {
         if (username == usernameExample && password == passwordExample)
         {
-            string url = $"/CirsaDesdeCero/dashboard/{username}";
+            // PARA GITHUB
+            //string url = $"/CirsaDesdeCero/dashboard/{username}";
+            // PARA LOCALHOST (clientRegister solo debug)
+            string url = $"/dashboard/{username}";
             NavigationManager.NavigateTo(url);
         }
     }

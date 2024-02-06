@@ -1,12 +1,14 @@
 @page "/dashboard/{userUsername}"
 @layout MinimumLayout
 
+
+
 @code {
-    // Variable only for representation purposes. Adjust to real variables values
+    // Variables only for representation purposes. Relate to real variables values
     private double accumulatedEarnings = 1468.26;
     private int userID = 10;
     [Parameter]
-    public string userUsername { get; set; } = "example";
+    public string userUsername { get; set; } = "exampleUsername";
     private int clientsRegisteredByLink = 131;
     private int ordersReceived = 37;
     private int totalSoldProducts = 23;
@@ -14,9 +16,6 @@
     int counter = 1;
     private double currentBalance = 1278.67;
     private List<string> countries = new List<string> { "Australia", "France", "Norway", "Germany", "Greece" };
-
-
-    // private List<string> chosen = new List<string> { };
 }
 
 @*  <style>
@@ -30,7 +29,10 @@
 
 <div class="dashboard-container custom-dash">  
     <div class="child c1 r1 child11">
-        <a href="/CirsaDesdeCero/editstyles"><img src="images/style-icon.png" alt="Configuration icon" title="Edit your page!" /></a>    
+        @*  LOCALHOST *@
+        <a href="/editstyles"><img src="images/style-icon.png" alt="Configuration icon" title="Edit your page!" /></a>  
+        @*  GITHUB *@
+        @* <a href="/CirsaDesdeCero/editstyles"><img src="images/style-icon.png" alt="Configuration icon" title="Edit your page!" /></a> *@    
     </div>
     <div class="child c1 r2 child12"> 
         <img src="images/products-in-icon.png" alt="PEDIDOS RECIBIDOS ESTE MES" title="Orders received this month" />
@@ -43,8 +45,8 @@
     <div class="child c2 r1 child21">
         <img src="images/url-icon.png" alt="Url icon" title="Unique affiliate URL" />
         <div class="dashboard-url-text">
-            <label for="@rutaActual">AFFILIATE UNIQUE URL</label>
-            <input type="text" id="@rutaActual" name="@rutaActual" value="@rutaActual" disabled />
+            <label for="@rutaActual/clientRegister">AFFILIATE UNIQUE URL</label>
+            <input type="text" id="@rutaActual/clientRegister" name="@rutaActual/clientRegister" value="@rutaActual/clientRegister" disabled />
         </div>
     </div>
     <div class="child c2 r2 child22">
@@ -103,12 +105,19 @@
 </div>
 
 @inject NavigationManager NavigationManager
+@inject NavigationManager RedirectManager
 
 @code {
     private string rutaActual = "";
+    private string baseUri = "";
+
     protected override void OnInitialized()
     {
         // Obtener la ruta actual usando NavigationManager
         rutaActual = NavigationManager.Uri;
+        
+        // Obtener la base URI usando RedirectManager
+        baseUri = RedirectManager.BaseUri;
+        Console.WriteLine(baseUri);
     }
 }
