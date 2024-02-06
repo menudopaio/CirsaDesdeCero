@@ -646,6 +646,4 @@ h1:focus {
 
 .editStylesButtons {
     display: flex;
-    width: 40%;
-    justify-content: space-evenly;
 }
