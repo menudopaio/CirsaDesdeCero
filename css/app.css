@@ -639,6 +639,7 @@ h1:focus {
 }
 .trans button {
     margin-bottom: 1rem;
+    margin-left: 3rem;
     padding: 0.7rem 2rem;
     border-radius: 1rem;
     background-color:#41fc47;
@@ -646,4 +647,5 @@ h1:focus {
 
 .editStylesButtons {
     display: flex;
+
 }
