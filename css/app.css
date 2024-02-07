@@ -306,7 +306,7 @@ h1:focus {
 .out-container {
     display: flex;
     flex-direction: row;
-    background-image: url("images/bussiness.jpg");
+    background-image: url("/CirsaDesdeCero/images/bussiness.jpg");
     background-size: cover;
     opacity: 0.6;
 
