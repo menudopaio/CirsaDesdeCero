@@ -188,10 +188,10 @@ h1:focus {
     flex-direction: row;
     justify-content: flex-end;
     margin-right: 1rem;
-    margin-left: 1rem;
-    margin-top: 1rem;
     margin-bottom: 2rem;
+    padding-left: 1rem;
 }
+
 
 
 .greets {
