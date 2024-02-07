@@ -21,8 +21,8 @@
     private List<string> FontWeight = new List<string> { "100", "200", "300", "400", "500", "600", "700", "800", "900" };
     private List<string> BackgroundColor = new List<string> { "lightcoral", "lightsalmon", "lightcyan", "lightgreen", "lightpink", "lightseagreen", "lightskyblue", "lightgoldenrodyellow" };
     
-    // Example customization (no backend)
-    private List<string> exampleCustomization = new List<string> { "'Courier New', Courier, monospace", "darkolivegreen", "600", "lightcoral" };
+    // Example customization "what the user has chosen"
+    private List<string> exampleCustomization = new List<string> { "'Courier New', Courier, monospace", "darkolivegreen", "600", "lightcoral", "Edit your title", "Customize your text here" };
 
     @inject NavigationManager NavigationManager
     @inject NavigationManager RedirectManager
@@ -79,7 +79,7 @@
             }
         </div>
         <div class="editStylesButtons">
-            <button type="submit">Check View</button>
+            <button href="/">Check View</button>
             <button type="submit">Save</button>
         </div>
     </form>
@@ -98,7 +98,7 @@
         <img src="images/url-icon.png" alt="Url icon" title="Unique affiliate URL" />
         <div class="dashboard-url-text">
             <label for="@baseUri/dashboard/{userUsername}/clientRegister">AFFILIATE UNIQUE URL</label>
-            <input type="@($"{baseUri}/dashboard/{userUsername}/clientRegister")" name="@($"{baseUri}/dashboard/{userUsername}/clientRegister")" value="@($"{baseUri}/dashboard/{userUsername}/clientRegister")" disabled />
+            <input type="text" name="@($"{baseUri}/dashboard/{userUsername}/clientRegister")" value="@($"{baseUri}/dashboard/{userUsername}/clientRegister")" disabled />
         </div>
     </div>
     <div class="child c2 r2 child22">
