@@ -100,7 +100,6 @@ main[b-qr7z8mkyn8] {
 .f2[b-qr7z8mkyn8] {
     display: flex;
     flex: 3;
-    flex-wrap: wrap;
     justify-content: center;
 }
 
