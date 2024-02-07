@@ -1,7 +1,8 @@
 @page "/dashboard/{userUsername}/clientRegister"
 
 @code {
-    public string userUsername { get; set; } = "example";
+    [Parameter]
+    public string userUsername { get; set; } = "exampleUsername";
     private List<string> exampleCustomization = new List<string> { "Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif", "darkcyan", "400", "lightskyblue" };
     
 }
