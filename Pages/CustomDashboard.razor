@@ -1,0 +1,24 @@
+@page "/dashboard/{userUsername}/custom"
+
+@code {
+    [Parameter]
+    public string userUsername { get; set; } = "exampleUsername";
+    private List<string> exampleCustomization = new List<string> { "'Courier New', Courier, monospace", "darkmagenta", "800", "lightcoral", "EDIT YOUR", "GREETINGS HERE" };
+}
+
+<style>
+    .dashboard-container {
+        background-color: @exampleCustomization[3] !important;
+    }
+    .child {
+        background-color: (@exampleCustomization[3], 0.5) !important;
+    }
+    .child .texto {
+        color: @exampleCustomization[1] !important;
+        font-weight: @exampleCustomization[2] !important;
+        font-family: @exampleCustomization[0] !important;
+    }
+
+</style>
+
+<Dashboard />
