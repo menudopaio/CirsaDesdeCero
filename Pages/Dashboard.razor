@@ -2,7 +2,6 @@
 @layout MinimumLayout
 
 
-
 @code {
     // Variables only for representation purposes. Relate to real variables values
     private double accumulatedEarnings = 1468.26;
@@ -109,15 +108,9 @@
 
 @code {
     private string rutaActual = "";
-    private string baseUri = "";
-
     protected override void OnInitialized()
     {
         // Obtener la ruta actual usando NavigationManager
         rutaActual = NavigationManager.Uri;
-        
-        // Obtener la base URI usando RedirectManager
-        baseUri = RedirectManager.BaseUri;
-        Console.WriteLine(baseUri);
     }
 }
