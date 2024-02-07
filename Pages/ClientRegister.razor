@@ -3,7 +3,7 @@
 @code {
     [Parameter]
     public string userUsername { get; set; } = "exampleUsername";
-    private List<string> exampleCustomization = new List<string> { "'Courier New', Courier, monospace", "darkolivegreen", "800", "lightcoral", "EDIT YOUR", "GREETINGS HERE" };
+    private List<string> exampleCustomization = new List<string> { "'Courier New', Courier, monospace", "darkmagenta", "800", "lightcoral", "EDIT YOUR", "GREETINGS HERE" };
 }
 
 <style>
@@ -17,7 +17,7 @@
     .login-out-container {
         background-color: @exampleCustomization[3] !important;
     }
-    .topbar {
+    .topbar, .footer {
         background-image: linear-gradient(120deg, @exampleCustomization[3] 0%, @exampleCustomization[1] 70%) !important;
     }
 
