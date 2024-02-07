@@ -1,7 +1,7 @@
 {
   "mainAssemblyName": "CirsaDesdeCero",
   "resources": {
-    "hash": "sha256-DfVPdchjmPeJCJalEipx3qpoXcSansvpKKOPsPXV6qI=",
+    "hash": "sha256-Spgn79JW1iUFIQKIKGB5ncFDPxqzqCOGTTB2dJ6icZA=",
     "jsModuleNative": {
       "dotnet.native.8.0.1.nblktrcelu.js": "sha256-qB9w6LAIvHgnin9aZN4jgLjuqmKThIkKC61aC6hCkJ0="
     },
@@ -17,7 +17,7 @@
       "icudt_no_CJK.dat": "sha256-L7sV7NEYP37/Qr2FPCePo5cJqRgTXRwGHuwF5Q+0Nfs="
     },
     "assembly": {
-      "CirsaDesdeCero.wasm": "sha256-ciiCwOtMmIDwrRUMGkavPCmXkU7Ei++g2LzWuJe96n4=",
+      "CirsaDesdeCero.wasm": "sha256-fa0xFfb19fTMK996sN/q6lgzefAWwnuHqvEO4cXUi44=",
       "Microsoft.AspNetCore.Components.wasm": "sha256-a3Z158V725r6tkwFwAjPmzKZqClPWv6QiDR0XIl91rs=",
       "Microsoft.AspNetCore.Components.Web.wasm": "sha256-E91MsmIFn594xIiyA3+3Z5N55+XXY2CeVqlRIXuGkMM=",
       "Microsoft.AspNetCore.Components.WebAssembly.wasm": "sha256-QRo9wN+gd5qqmZFiGyMTQbvqHCAt62nXolIZaL7npH4=",
