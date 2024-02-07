@@ -9,10 +9,10 @@
     <div class="login-middle">
         <div class="greetings-container">
             <div class="greetings">
-                <h1>Affiliates</h1>
+                <h1>@Title</h1>
             </div>
             <div class="greetings2">
-                <h1>Program</h1>
+                <@H1>@Subtitle</@H1>
             </div>
         </div>
         <div class="login-container">
@@ -37,6 +37,12 @@
 
 
 @code {
+    [Parameter]
+    public string H1 { get; set; } = "h1";
+    [Parameter]
+    public string Title { get; set; } = "Affiliates";
+    [Parameter]
+    public string Subtitle { get; set; } = "Program";
     [Parameter]
     public string TextoH2 { get; set; } = "Log In";
     string usernameExample = "exampleUsername";

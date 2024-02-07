@@ -3,8 +3,7 @@
 @code {
     [Parameter]
     public string userUsername { get; set; } = "exampleUsername";
-    @* private List<string> exampleCustomization = new List<string> { "'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif", "darkcyan", "400", "lightskyblue" }; *@
-    private List<string> exampleCustomization = new List<string> { "'Courier New', Courier, monospace", "darkolivegreen", "600", "lightcoral" };
+    private List<string> exampleCustomization = new List<string> { "'Courier New', Courier, monospace", "darkolivegreen", "600", "lightcoral", "Edit your title", "Customize your text here" };
 }
 
 <style>
@@ -21,4 +20,4 @@
 
 </style>
 
-<Login TextoH2="Register" />
+<Login TextoH2="Register" H1="h3" Title="@exampleCustomization[4]" Subtitle="@exampleCustomization[5]" />
