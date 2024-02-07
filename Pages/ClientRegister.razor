@@ -3,14 +3,13 @@
 @code {
     [Parameter]
     public string userUsername { get; set; } = "exampleUsername";
-    private List<string> exampleCustomization = new List<string> { "'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif", "darkcyan", "400", "lightskyblue" };
-    
+    @* private List<string> exampleCustomization = new List<string> { "'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif", "darkcyan", "400", "lightskyblue" }; *@
+    private List<string> exampleCustomization = new List<string> { "'Courier New', Courier, monospace", "darkolivegreen", "600", "lightcoral" };
 }
 
 <style>
     .greetings-container .greetings h1, .greetings-container .greetings2 h1, .login-container h2, .form-group button {
         font-family: @exampleCustomization[0] !important;
-        @* @exampleCustomization[0] !important; *@
     }
     .login-container h2 {
         color: @exampleCustomization[1] !important;
