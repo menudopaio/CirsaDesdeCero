@@ -56,6 +56,11 @@
             }
         }
     }
+
+    private void CheckView()
+    {
+        NavigationManager.NavigateTo($"{baseUri}/dashboard/{userUsername}/clientRegister");
+    }
 }
 
 
@@ -79,7 +84,7 @@
             }
         </div>
         <div class="editStylesButtons">
-            <button href="/'@($"{baseUri}/dashboard/{userUsername}/clientRegister")'">Check View</button>
+            <button @onclick="CheckView">Check View</button>
             <button type="submit">Save</button>
         </div>
     </form>
