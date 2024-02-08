@@ -52,6 +52,10 @@ Or by clicking on the Save button, you can see how the dashboard is combined.
 
 <img src="readmeImages/customDashboardCyan.png" alt="Custom dashboard page Cyan Sample">
 
+Finally, you can share your unique affiliate link, so anyone can register through this new styled page, and buy products making you earn a comission for each sale.
+
+Some more samples:
+
 <img src="readmeImages/customRegisterMagenta.png" alt="Custom register page Magenta Sample">
 
 <img src="readmeImages/customDashboardMagenta.png" alt="Custom dashboard page Magenta Sample">
@@ -60,4 +64,4 @@ Or by clicking on the Save button, you can see how the dashboard is combined.
 
 <img src="readmeImages/customDashboardGreen.png" alt="Custom dashboard page Green Sample">
 
-Finally, you can share your unique affiliate link, so anyone can register through this new styled page, and buy products making you earn a comission for each sale.
+
