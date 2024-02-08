@@ -8,7 +8,7 @@
 ## Test Password: qwertyuiop
 [https://menudopaio.github.io/CirsaDesdeCero](https://menudopaio.github.io/CirsaDesdeCero)
 
-###Background
+### Background
 CIRSA is looking to expand and has created an affiliate program so that the person who helps can also win. In order to carry it out, capable developers are needed to create an innovative web application with good design. This is why we are asking to create several views that fit CIRSA's design and solve this problem.
 
 I started this webpage with no prior knowledge on .Net or Blazor, but learning to use them was not a big deal. The hardest part of this project has been deploying it succesfully to github pages. It has been an ardous work to realize what was failling; just following the errors couldn't help me, until I found [THE](https://www.youtube.com/watch?v=nNxII6jvPvQ) video.
@@ -35,7 +35,25 @@ Since this is a static webpage with no backend, none of the information provided
 
 ### Installation
 
+To install and run this Blazor WebAssembly project on your local environment, follow these steps:
 
+#### 1. Prerequisites
+
+* Make sure you have the .NET SDK installed on your system. It's recommended to use version 8.0.100 or higher.
+* You'll need a code editor such as Visual Studio Code or Visual Studio to work with the project.
+
+#### 2. Clone the repository
+Clone this repository to your local machine using Git:
+
+`git clone https://github.com/your-username/your-project.git`
+`cd your-project`
+
+#### 3. Build and run
+Open a terminal in the project's root folder and run the following command to build and run the project:
+
+`dotnet run´
+
+This will build the project and run it locally. Once it's up and running, you can access the application from your browser at https://localhost:5001.
 
 ### Webpage flow
 From the `Home` page, you can register by either clicking on the `Register` button or by the `Join In` button. In the home page we also find links to some company external departments, such as other products, contact, media, or news. Registering is not possible, but you can use the provided username and password  to log in and check the website functionalities.
