@@ -25,7 +25,7 @@
                     <input class="pass" @bind="password" placeholder="     Password" type="password" id="password" name="password" required>
                 </div>
                 <div class="form-group">
-                    <button @onclick="VerificarInformacion" @onclick=@countRegByClick @onclick:preventDefault="true" >@TextoH2</button>
+                    <button @onclick:preventDefault="true" @onclick="VerificarInformacion" >@TextoH2</button>
                 </div>
             </form>
         </div>
@@ -45,18 +45,21 @@
     public string TextoH2 { get; set; } = "Log In";
     string usernameExample = "exampleUsername";
     string passwordExample = "qwertyuiop";
-    [Parameter]
-    public string countRegByClick { get; set; } = ";";
-
-    private int clientsRegisteredByLink = 131;
-
-    private void IncrementCount()
-    {
-        clientsRegisteredByLink++;
-    }
 
     public string? username;
     string? password;
+    @* @inject NavigationManager NavigationManager2
+    @inject NavigationManager RedirectManager
+    private string rutaActual = "";
+    private string baseUri = "";
+    protected override void OnInitialized()
+    {
+        // Obtener la ruta actual usando NavigationManager
+        rutaActual = NavigationManager2.Uri;
+
+        // Obtener la base URI usando RedirectManager
+        baseUri = RedirectManager.BaseUri;
+    } *@
 
     void VerificarInformacion ()
     {
