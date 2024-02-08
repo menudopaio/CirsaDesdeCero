@@ -46,7 +46,14 @@
     string usernameExample = "exampleUsername";
     string passwordExample = "qwertyuiop";
     [Parameter]
-    public string countRegByClick { get; set; } = "";
+    public string countRegByClick { get; set; } = ";";
+
+    private int clientsRegisteredByLink = 131;
+
+    private void IncrementCount()
+    {
+        clientsRegisteredByLink++;
+    }
 
     public string? username;
     string? password;
