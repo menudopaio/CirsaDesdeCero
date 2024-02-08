@@ -47,10 +47,15 @@ To install and run this Blazor WebAssembly project on your local environment, fo
 #### 2. Clone the repository
 Clone this repository to your local machine using Git:
 
-`git clone https://github.com/your-username/your-project.git`
-`cd your-project`
+`git clone https://github.com/menudopaio/CirsaDesdeCero.git`
+`cd CirsaDesdeCero`
 
-#### 3. Build and run
+This is the root of the project.
+
+#### 3. Change the <base> tag
+In index.html, inside wwwroot, comment the GITHUB base tag and uncomment the LOCALHOST base tag.
+
+#### 4. Build and run
 Open a terminal in the project's root folder and run the following command to build and run the project:
 
 `dotnet run´
