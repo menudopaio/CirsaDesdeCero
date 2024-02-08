@@ -53,7 +53,7 @@ Clone this repository to your local machine using Git:
 This is the root of the project.
 
 #### 3. Change the <base> tag
-In index.html, inside wwwroot, comment the GITHUB base tag and uncomment the LOCALHOST base tag.
+In `index.html`, inside `wwwroot`, comment the GITHUB base tag and uncomment the LOCALHOST base tag.
 
 #### 4. Build and run
 Open a terminal in the project's root folder and run the following command to build and run the project:
