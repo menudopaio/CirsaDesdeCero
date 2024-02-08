@@ -34,7 +34,7 @@ From the `Home` page, you can register by either clicking on the `Register` butt
 
 <img src="readmeImages/register.png" alt="Register page">
 
-<img src="readmeImages/login.png" alt="Login page">
+
 
 Once you log in, you can see a dashboard with some of the information of your account, like your unique affiliate link, how many people registered through your link, your current balance, where is people buying your products from, and other useful information. Of course, all the information is just sample variables, since we cannot access a database from github.
 
@@ -50,7 +50,7 @@ By clicking on the Check View button, you can see how the client register page i
 
 Or by clicking on the Save button, you can see how the dashboard is combined.
 
-<img src="readmeImages/customDashboardCyan.png" alt="Custom dashboard page Cyan Sample">
+<img src="readmeImages/customDashboardBlue.png" alt="Custom Dashboard page Cyan Sample">
 
 Finally, you can share your unique affiliate link, so anyone can register through this new styled page, and buy products making you earn a comission for each sale.
 
