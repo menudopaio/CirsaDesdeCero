@@ -47,8 +47,9 @@
     string passwordExample = "qwertyuiop";
 
     public string? username;
+    public int registeredByYourLink = 131;
     string? password;
-    @* @inject NavigationManager NavigationManager2
+    @inject NavigationManager NavigationManager2
     @inject NavigationManager RedirectManager
     private string rutaActual = "";
     private string baseUri = "";
@@ -59,10 +60,14 @@
 
         // Obtener la base URI usando RedirectManager
         baseUri = RedirectManager.BaseUri;
-    } *@
+    }
 
     void VerificarInformacion ()
     {
+        if (rutaActual == baseUri + "/dashboard/{userUsername}/custom")
+        {
+            registeredByYourLink++;
+        }
         if (username == usernameExample && password == passwordExample)
         {
             // PARA GITHUB
