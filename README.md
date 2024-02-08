@@ -8,6 +8,9 @@
 ## Test Password: qwertyuiop
 [https://menudopaio.github.io/CirsaDesdeCero](https://menudopaio.github.io/CirsaDesdeCero)
 
+###Background
+CIRSA is looking to expand and has created an affiliate program so that the person who helps can also win. In order to carry it out, capable developers are needed to create an innovative web application with good design. This is why we are asking to create several views that fit CIRSA's design and solve this problem.
+
 I started this webpage with no prior knowledge on .Net or Blazor, but learning to use them was not a big deal. The hardest part of this project has been deploying it succesfully to github pages. It has been an ardous work to realize what was failling; just following the errors couldn't help me, until I found [THE](https://www.youtube.com/watch?v=nNxII6jvPvQ) video.
 
 The main issue with github pages and Blazor applications is that:
@@ -28,7 +31,11 @@ The last setback I had was creating a workflow. Before this project I even didn'
 For creating a workflow, you need to automate the whole process of what you would do yourself: checkout the branch that contains the project, setup dotnet, install wasm tools, publish it and commit it to github pages using your personal access token. In my case I finally also added to the workflow the creation of the .nojekyll file and the 404 file and the routes issue, as in the video, but it's not needed to automate this.
 
 
-Since this is a static webpage with no backend, none of the information provided here in any form is going to be stored.
+Since this is a static webpage with no backend, none of the information provided here in any form is going to be stored or processed.
+
+### Installation
+
+
 
 ### Webpage flow
 From the `Home` page, you can register by either clicking on the `Register` button or by the `Join In` button. In the home page we also find links to some company external departments, such as other products, contact, media, or news. Registering is not possible, but you can use the provided username and password  to log in and check the website functionalities.
