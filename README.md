@@ -52,7 +52,4 @@ Or by clicking on the Save button, you can see how the dashboard is combined.
 <br>
 <img src="readmeImages/customDashboard.png" alt="Custom dashboard page">
 <br>
-
-
-
 Finally, you can share your unique affiliate link, so anyone can register through this new styled page, and buy products making you earn a comission for each sale.
