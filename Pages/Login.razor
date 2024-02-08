@@ -64,9 +64,10 @@
 
     void VerificarInformacion ()
     {
-        if (rutaActual == baseUri + "/dashboard/{userUsername}/custom")
+        if (rutaActual == baseUri + "/dashboard/{userUsername}/clientRegister")
         {
             registeredByYourLink++;
+            NavigationManager.NavigateTo(baseUri);
         }
         if (username == usernameExample && password == passwordExample)
         {
