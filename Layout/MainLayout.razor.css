@@ -23,30 +23,9 @@ main {
     flex-basis: 5%;
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
     background-image: linear-gradient(120deg, #f0c756 0%, #8d6825 70%);
     overflow: hidden;
 }
-
-/*.show-menu {
-    max-height: 500px;*/ /* Ajusta seg�n sea necesario */
-/*}*/
-
-/*@media (min-width: 641px) {
-    .page {
-        flex-direction: column;
-    }
-
-    .topbar {
-        width: 100%;
-        height: 5%;
-        display: flex;
-        flex-direction: row;
-        position: sticky;
-        top: 0;
-        align-items: baseline;
-    }
-}*/
 
 #blazor-error-ui {
     background: lightyellow;
