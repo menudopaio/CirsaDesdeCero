@@ -1,5 +1,19 @@
 ﻿@page "/"
 
+@code {
+    @inject NavigationManager NavigationManager
+    @inject NavigationManager RedirectManager
+    private string baseUri = "";
+    protected override void OnInitialized()
+    {
+        // Obtener la base URI usando RedirectManager
+        baseUri = NavigationManager.BaseUri;
+    }
+    private void Redirect ()
+    {
+        RedirectManager.NavigateTo(baseUri + "register");
+    }
+}
 <PageTitle>Cirsa Affiliates</PageTitle>
 <div class="out-container">
     <div class="inout-container">
@@ -14,7 +28,7 @@
                 <li><strong>Maximize Success:</strong> Join now to play a key role in driving success and maximizing your gains!</li>
             </ul>
         </div>
-        <a href="/CirsaDesdeCero/register" class="join-button-p">Join Now</a>
+        <button @onclick="Redirect" class="join-button-p">Join Now</button>
     </div>
     <div class="inout-container2">
         <h1 class="p1">Affiliates</h1>

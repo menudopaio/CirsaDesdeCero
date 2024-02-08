@@ -64,7 +64,7 @@
 
     void VerificarInformacion ()
     {
-        if (rutaActual == baseUri + "/dashboard/{userUsername}/clientRegister")
+        if (rutaActual == baseUri + "dashboard/{userUsername}/clientRegister")
         {
             registeredByYourLink++;
             NavigationManager.NavigateTo(baseUri);
@@ -72,9 +72,9 @@
         if (username == usernameExample && password == passwordExample)
         {
             // PARA GITHUB
-            string url = $"/CirsaDesdeCero/dashboard/{username}";
+            //string url = $"/CirsaDesdeCero/dashboard/{username}";
             // PARA LOCALHOST (clientRegister solo debug)
-            //string url = $"/dashboard/{username}";
+            string url = $"{baseUri}/dashboard/{username}";
             NavigationManager.NavigateTo(url);
         }
     }

@@ -24,7 +24,7 @@
         @*  LOCALHOST *@
         @* <a href="/editstyles"><img src="images/style-icon.png" alt="Configuration icon" title="Edit your page!" /></a>   *@
         @*  GITHUB *@
-        <a href="/CirsaDesdeCero/editstyles"><img src="images/style-icon.png" alt="Configuration icon" title="Edit your page!" /></a>    
+        <button @onclick="@RedirectEdit"><img src="images/style-icon.png" alt="Configuration icon" title="Edit your page!" /></button>    
     </div>
     <div class="child c1 r2 child12"> 
         <img src="images/products-in-icon.png" alt="PEDIDOS RECIBIDOS ESTE MES" title="Orders received this month" />
@@ -101,9 +101,18 @@
 
 @code {
     private string rutaActual = "";
+    private string baseUri = "";
     protected override void OnInitialized()
     {
         // Obtener la ruta actual usando NavigationManager
         rutaActual = NavigationManager.Uri;
+
+        // Obtener la base URI usando RedirectManager
+        baseUri = RedirectManager.BaseUri;
+    }
+
+    private void RedirectEdit ()
+    {
+        NavigationManager.NavigateTo(baseUri + "editstyles");
     }
 }
