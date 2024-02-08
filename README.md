@@ -40,7 +40,7 @@ Once you log in, you can see a dashboard with some of the information of your ac
 
 <img src="readmeImages/dashboard.png" alt="Dashboard page">
 
-Besides all of your account information, there is a section to edit some styles of your dashboard page. They will also apply to your registration affilliate link. Clicking on the top left corner image you can change the font family, color and font weight of part of the text in your dashboard and the affilliates registration page, as long as the background color of the dashboard and the affiliates registration page, from some dropdown options. You can also edit the greetings text for the registration page. As with any other `form` in github, this will not save the changes.
+Besides all of your account information, there is a section to edit some styles of your dashboard page. They will also apply to the registration page linked through your affiliate link. Clicking on the top left corner image you can change the font family, color and font weight of some text in your dashboard and the affilliates registration page, as long as the background color of the dashboard and the affiliates registration page, from some dropdown options. You can also edit the greetings text for the registration page. As with any other `form` in github, this will not save the changes.
 
 <img src="readmeImages/editStyles.png" alt="Edit styles page">
 
