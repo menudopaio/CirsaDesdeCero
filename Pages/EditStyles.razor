@@ -24,6 +24,11 @@
     // Example customization "what the user has chosen"
     private List<string> exampleCustomization = new List<string> { "'Courier New', Courier, monospace", "darkmagenta", "800", "lightcoral", "EDIT YOUR", "GREETINGS HERE" };
 
+    [Parameter]
+    public string Title { get; set; } = "WELCOME";
+    [Parameter]
+    public string Subtitle { get; set; } = "TO MY STORE";
+
     @inject NavigationManager NavigationManager
     @inject NavigationManager RedirectManager
     private string rutaActual = "";
@@ -65,33 +70,45 @@
     {
         NavigationManager.NavigateTo($"{baseUri}dashboard/{userUsername}/custom");
     }
+
 }
 
 
 <div class="dashboard-container">
     <form class="trans">
-        <text>Change some styles for your page!</text>
-        <div class="trans-in">
-            @foreach (var editableKey in editablesDict.Keys.Take(5))
-            {
-                <div class="editable-item-row">
-                    <div class="editable-item">@editableKey.ToUpper()</div>
-                    <div class="editable-item item-value">
-                        <select name="@editableKey">
-                            @foreach (var value in editablesDict[editableKey])
-                            {
-                                <option value="@value">@value</option>
-                            }
-                        </select>
+        <div class="transH">
+            <text>Change some styles for your page!</text>
+            <div class="trans-in">
+                @foreach (var editableKey in editablesDict.Keys.Take(5))
+                {
+                    <div class="editable-item-row">
+                        <div class="editable-item">@editableKey.ToUpper()</div>
+                        <div class="editable-item item-value">
+                            <select name="@editableKey">
+                                @foreach (var value in editablesDict[editableKey])
+                                {
+                                    <option value="@value">@value</option>
+                                }
+                            </select>
+                        </div>
                     </div>
-                </div>
-            }
+                }
+            </div>
+            <div class="editStylesButtons">
+                <button @onclick="CheckView">Check View</button>
+                <button @onclick="Save">Save</button>
+            </div>
         </div>
-        <div class="editStylesButtons">
-            <button @onclick="CheckView">Check View</button>
-            <button @onclick="Save">Save</button>
+        <div class="transH">
+            <label for="Title">@Title</label>
+            <input type="text" id="Title" name="Title" value="@Title" />
+            <label for="Subtitle">@Subtitle</label>
+            <input type="text" id="Subtitle" name="Subtitle" value="@Subtitle" />
         </div>
+
+
     </form>
+
     <div class="child c1 r1 child11">
         <img src="images/style-icon.png" alt="Configuration icon" title="Edit your page!" />       
     </div>
