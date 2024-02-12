@@ -101,3 +101,6 @@ Some more samples:
 <img src="readmeImages/customDashboardGreen.png" alt="Custom dashboard page Green Sample">
 
 
+Besides all of your account information, there is a section to edit some styles of your dashboard page. Clicking on the top left corner image you can change the font family, color and font weight of part of the text in your dashboard, as long as the background color of the dashboard, from some dropdown options. As with any other `form` in github, this will not save the changes.
+
+Finally, you can share your unique affiliate link, so anyone can register through it, and buy products making you earn a comission for each sale.
