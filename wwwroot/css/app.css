@@ -267,16 +267,29 @@ h1:focus {
     flex-direction: row;
 }
 
+.out-container {
+    display: flex;
+    flex-direction: row;
+    background-image: url("../images/bussiness.jpg");
+    background-size: cover;
+    opacity: 0.6;
+    max-width: 100vw;
+    max-height: 100vw;
+    height: 100%;
+    width: 100%;
+}
+
 .container-p {
     text-align: start;
     padding-top: 2rem;
+    padding-right: 0.5rem;
 }
 .inout-container {
     background-color: #fff;
     border-radius: 10px;
     box-shadow: 0 0 13px rgba(0, 0, 0, 0.2);
-    max-width: 600px;
     height: 98%;
+    width: 43vw;
     text-align: center;
     display: flex;
     flex-direction: column;
@@ -285,9 +298,24 @@ h1:focus {
     margin-left: 11px;
 }
 
-
 .inout-container a:hover {
     color: #000;
+}
+
+.inout-countainer2 {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    width: 57vw;
+}
+
+@media (max-width: 952px) {
+    .inout-container {
+        width: 52vw;
+    }
+    .inout-countainer2 {
+        width: 48vw;
+    }
 }
 
 .join-button-p {
@@ -303,33 +331,17 @@ h1:focus {
         background-color: #128516;
     }
 
-.out-container {
-    display: flex;
-    flex-direction: row;
-    background-image: url("../images/bussiness.jpg");
-    background-size: cover;
-    opacity: 0.6;
-
-    height: 100%;
-    width: 100%;
-}
-
-.inout-countainer2 {
-    display: flex;
-    flex-direction: column;
-    padding: 1rem;
-}
 .p1 {
-    margin: 1rem 1rem;
-    padding-left: 6rem;
-    padding-top: 3rem;
-    font-size: 7rem;
+    margin: 1vw 1vw;
+    padding-left: 6vw;
+    padding-top: 3vw;
+    font-size: 7vw;
 }
 .p2 {
-    margin: 1rem 1rem;
-    padding-left: 17rem;
-    padding-top: 4rem;
-    font-size: 6.3rem;
+    margin: 1vw 1vw;
+    padding-left: 17vw;
+    padding-top: 4vw;
+    font-size: 6.3vw;
 }
 
 .dashboard-container {
@@ -590,8 +602,7 @@ h1:focus {
     align-items: center;
     justify-self: center;
     align-self: center;
-    width: 80%;
-    height: 82%;
+    size: border-box;
     border-radius: 5rem;
     background-color: rgba(247, 218, 91, 0.877);
     box-shadow: 0.4rem 0.4rem 6px rgba(219, 200, 136, 0.877);

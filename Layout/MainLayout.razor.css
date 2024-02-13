@@ -59,6 +59,11 @@ main {
     flex: 4;
     justify-content: flex-start;
 }
+@media (max-width: 1060px) {
+    .f1 {
+        display: none;
+    }
+}
 
 .f11 {
     display: flex;
