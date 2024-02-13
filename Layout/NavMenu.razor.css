@@ -1,8 +1,3 @@
-.top-row {
-    height: 3.5rem;
-    background-color: rgba(0,0,0,0.4);
-}
-
 .navbar-brand {
     font-size: 1.1rem;
 }
@@ -24,9 +19,12 @@
 .bi-plus-square-fill-nav-menu {
     background-image: url("images/arrow-down.png");
 }
-
 .bi-list-nested-nav-menu {
     background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' fill='white' class='bi bi-list-nested' viewBox='0 0 16 16'%3E%3Cpath fill-rule='evenodd' d='M4.5 11.5A.5.5 0 0 1 5 11h10a.5.5 0 0 1 0 1H5a.5.5 0 0 1-.5-.5zm-2-4A.5.5 0 0 1 3 7h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm-2-4A.5.5 0 0 1 1 3h10a.5.5 0 0 1 0 1H1a.5.5 0 0 1-.5-.5z'/%3E%3C/svg%3E");
+}
+.bi-list-nested-nav-menu2 {
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' fill='white' class='bi bi-list-nested' viewBox='0 0 16 16'%3E%3Cpath fill-rule='evenodd' d='M4.5 11.5A.5.5 0 0 1 5 11h10a.5.5 0 0 1 0 1H5a.5.5 0 0 1-.5-.5zm-2-4A.5.5 0 0 1 3 7h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm-2-4A.5.5 0 0 1 1 3h10a.5.5 0 0 1 0 1H1a.5.5 0 0 1-.5-.5z'/%3E%3C/svg%3E");
+    display: none;
 }
 
 .nav-item {
@@ -87,23 +85,73 @@
     box-shadow: 2px 2px 2px 2px #555555;
     text-shadow: #888888;
 }
+.collapsableMenu {
+    display: flex;
+    flex-direction: row;
+}
+@media (max-width: 1320px) {
+    .collapsableMenu {
+        display: none;
+    }
+    .bi-list-nested-nav-menu2 {
+        display: inline-block;
+        position: absolute;
+        top: 1.5rem;
+        right: 1rem;
+        width: 3.5rem;
+        height: 3.5rem;
+        transform: rotateX(180deg);
+    }
+}
 
+@media (max-width: 952px) {
+    .logo-header {
+        left: 1rem;
+        width: 15rem;
+        height: 4.2rem;
+    }
+    .bi-list-nested-nav-menu2 {
+        display: inline-block;
+        position: absolute;
+        top: 1.15rem;
+        right: 1rem;
+        width: 3rem;
+        height: 3rem;
+        transform: rotateX(180deg);
+    }
+    
+}
+#check {
+    display: none;
+}
+#check:checked ~ .collapsableMenu {
+    display: flex;
+}
 .flexo {
     display: flex;
     flex-direction: row;
     align-items: center;
+    justify-content: space-between;
 }
 
-.flexend {
-    margin-left: 8rem;
-    margin-right: 0;
+.center {
+    margin-left: 7rem;
 }
-
 .reglog {
     display: flex;
     flex-direction: column;
+    margin-left: 7rem;
+    margin-right: 0;
+    margin-top: 0rem;
+    margin-bottom: 2rem;
+    float: flex-end;
+    height: 6rem;
+}
+.cirsaLogo {
+    float: flex-start;
 }
 
 .cen {
     margin-left: 1rem;
 }
+

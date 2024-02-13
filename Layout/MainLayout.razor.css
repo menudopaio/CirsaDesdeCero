@@ -20,11 +20,10 @@ main {
 }
 
 .topbar {
-    flex-basis: 5%;
     display: flex;
     flex-direction: row;
+    width: 100%;
     background-image: linear-gradient(120deg, #f0c756 0%, #8d6825 70%);
-    overflow: hidden;
 }
 
 #blazor-error-ui {
