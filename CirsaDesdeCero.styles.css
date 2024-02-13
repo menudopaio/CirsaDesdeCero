@@ -60,6 +60,11 @@ main[b-qr7z8mkyn8] {
     flex: 4;
     justify-content: flex-start;
 }
+@media (max-width: 1060px) {
+    .f1[b-qr7z8mkyn8] {
+        display: none;
+    }
+}
 
 .f11[b-qr7z8mkyn8] {
     display: flex;
