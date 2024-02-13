@@ -76,7 +76,7 @@
 
 <div class="dashboard-container">
     <form class="trans">
-        <div class="transH">
+        <div class="transH trans1">
             <text>Change some styles for your page!</text>
             <div class="trans-in">
                 @foreach (var editableKey in editablesDict.Keys.Take(5))
@@ -99,11 +99,11 @@
                 <button @onclick="Save">Save</button>
             </div>
         </div>
-        <div class="transH">
-            <label for="Title">@Title</label>
-            <input type="text" id="Title" name="Title" value="@Title" />
-            <label for="Subtitle">@Subtitle</label>
-            <input type="text" id="Subtitle" name="Subtitle" value="@Subtitle" />
+        <div class="transH trans2">
+            <label for="Title">Title</label>
+            <input class="customLabel" type="text" id="Title" name="Title" value="@Title" />
+            <label for="Subtitle">Subtitle</label>
+            <input class="customLabel" type="text" id="Subtitle" name="Subtitle" value="@Subtitle" />
         </div>
 
 

@@ -590,8 +590,8 @@ h1:focus {
     align-items: center;
     justify-self: center;
     align-self: center;
-    width: 85%;
-    height: 80%;
+    width: 80%;
+    height: 82%;
     border-radius: 5rem;
     background-color: rgba(247, 218, 91, 0.877);
     box-shadow: 0.4rem 0.4rem 6px rgba(219, 200, 136, 0.877);
@@ -599,9 +599,37 @@ h1:focus {
 .transH {
     display: flex;
     flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    margin: 1rem 1rem;
 }
-.trans2 input text {
-    background-color: black !important;
+.trans1 {
+    flex: 2;
+    float: flex-start;
+    margin-left: 2rem;
+    margin-top: 2rem;
+}
+.trans1 div {
+    margin: 1rem 1rem;
+}
+.trans2 {
+    flex: 1;
+    float: flex-end;
+    margin-right: 2.5rem;
+}
+.trans2 label {
+    font-size: 2rem;
+    font-weight: 700;
+}
+.customLabel {
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+.trans input {
+    height: 5rem;
+    width: 95%;
+    border-radius: 3rem;
+    background-color: #ffd341;
 }
 .trans text {
     font-size: 2.5rem;
@@ -612,8 +640,8 @@ h1:focus {
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
-    height: 70%;
-    width: 70%;
+    height: 75%;
+    width: 85%;
     border-radius: 3rem;
     background-color: rgba(216, 179, 14, 0.707);
 }
