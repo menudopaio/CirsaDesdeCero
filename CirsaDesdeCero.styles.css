@@ -2,6 +2,8 @@
 .page[b-qr7z8mkyn8] {
     display: flex;
     flex-direction: column;
+    height: 100vh;
+    width: 100vw;
 }
 
 main[b-qr7z8mkyn8] {
@@ -17,7 +19,8 @@ main[b-qr7z8mkyn8] {
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 30rem;
+    height: 100%;
+    width: 100%;
 }
 
 .topbar[b-qr7z8mkyn8] {
