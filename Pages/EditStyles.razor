@@ -84,7 +84,7 @@
                     <div class="editable-item-row">
                         <div class="editable-item">@editableKey.ToUpper()</div>
                         <div class="editable-item item-value">
-                            <select name="@editableKey">
+                            <select name="@editableKey" class="selectItem">
                                 @foreach (var value in editablesDict[editableKey])
                                 {
                                     <option value="@value">@value</option>
