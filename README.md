@@ -101,9 +101,15 @@ Some more samples:
 <img src="readmeImages/customDashboardGreen.png" alt="Custom dashboard page Green Sample">
 
 Other screen sizes:
+
 <img src="readmeImages/homeT1.png" alt="Home tablet">
+
 <img src="readmeImages/homeM1.png" alt="Home mobile">
+
 <img src="readmeImages/registerT1.png" alt="Register tablet">
+
 <img src="readmeImages/registerM1.png" alt="Register mobile">
+
 <img src="readmeImages/loginT1.png" alt="Login tablet">
+
 <img src="readmeImages/loginM1.png" alt="Login mobile">
