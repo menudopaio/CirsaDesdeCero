@@ -3,12 +3,13 @@
 ![C#](https://img.shields.io/badge/C%23-239120?style=for-the-badge&logo=c-sharp&logoColor=white)
 ![Blazor](https://img.shields.io/badge/Blazor-512BD4?style=for-the-badge&logo=blazor&logoColor=white)
 
-# Cirsa Tech Hub
-## Test Username: exampleUsername
-## Test Password: qwertyuiop
+# Cirsa Tech Hub  
+## Test Username: exampleUsername  
+## Test Password: qwertyuiop  
 [https://menudopaio.github.io/CirsaDesdeCero](https://menudopaio.github.io/CirsaDesdeCero)
 
 ### Background
+
 *CIRSA busca expandirse y ha creado un programa de afiliados para que también gane la persona que les ayude. Para poder llevarlo a cabo, se necesitan desarrolladores capaces de crear una aplicación web innovadora y con buen diseño. Es por esto que se pide crear varias vistas que encajen con el diseño de CIRSA y que resuelva este problema.*
 
 *El stack propuesto para este reto es C# y Blazor como framework.*
@@ -16,16 +17,17 @@
 Empecé esta pagina web sin ningun conocimiento previo de .Net o Blazor, pero aprenderlos a usar no ha sido el reto. La parte mas difícil de este proyecto ha sido desplegarlo con éxito en github pages. Ha sido una odisea darme cuenta de qué estaba fallando; solamente siguiendo los errores no me ayudaba en ningun sentido, hasta que encontré [EL](https://www.youtube.com/watch?v=nNxII6jvPvQ) video.
 
 El asunto principal con github pages y las aplicaciones Blazor es que:
-1. Github modifica algunos archivos en el despliegue.
-   --> En la raíz del proyecto, en la terminal, ejecuta: `"* binary >> .attributes`
+
+1. Github modifica algunos archivos en el despliegue.  
+   --> En la raíz del proyecto, en la terminal, ejecuta: `"* binary >> .attributes`  
    El archivo `.attributes` dirá a github que trate todos los archivos como archivos binarios, así que no los modificará.
    
-2. Github trata algunos archivos como jekyll.
-   --> En el directorio raíz, crea un archivo vacío llamado `.nojekyll`.
+2. Github trata algunos archivos como jekyll.  
+   --> En el directorio raíz, crea un archivo vacío llamado `.nojekyll`.  
    Esto prevendra que github trate algunos archivos autogenerados como jekyll.
 
-3. Las rutas son distintas cuando se ejecuta en localhost o en github pages.
-   --> En la etiqueta `<base>` en `index.html`, cambia `("/")` por `("/NombreDeTuProyecto/")`.
+3. Las rutas son distintas cuando se ejecuta en localhost o en github pages.  
+   --> En la etiqueta `<base>` en `index.html`, cambia `("/")` por `("/NombreDeTuProyecto/")`.  
    Github despliega tu pagina web en `nombreDeUsuario.github.io/NombreDeTuProyecto`, asi que la raíz de tu proyecto es esta.
 
 El último contratiempo que tuve fue crear el workflow (flujo de trabajo). Antes de este proyecto ni siquiera sabia que existían. Son muy potentes, pero como cualquier cosa, debes saber como usarlos. Lo resolví mirando varios proyectos blazor de otras personas para entender qué estaba pasando, y también mirando varios videos (encontrando la solución otra vez en [EL](https://www.youtube.com/watch?v=nNxII6jvPvQ) mismo video de antes.) Todo en 16 minutos. La cuestión era encontrarlo!
@@ -40,10 +42,11 @@ Para instalar y ejecutar este proyecto Blazor WebAssembly en tu entorno local, s
 
 #### 1. Prerequisitos
 
-* Asegurate de tener instalado .NET SDK en tu sistema. Se recomienda usar la version 8.0.100 o superior.
+* Asegurate de tener instalado .NET SDK en tu sistema. Se recomienda usar la version 8.0.100 o superior.  
 * Necesitarás un editor de código como Visual Studio Code o Visual Studio para trabajar con el proyecto.
 
 #### 2. Clona el repositorio
+
 Clona este repositorio a tu maquina local usando Git:
 
 `git clone https://github.com/menudopaio/CirsaDesdeCero.git`
@@ -102,4 +105,16 @@ Algunas muestras más:
 
 <img src="readmeImages/customDashboardGreen.png" alt="Custom dashboard page Green Sample">
 
+Otros tamaños de pantalla:
 
+<img src="readmeImages/homeT1.png" alt="Home tablet">
+
+<img src="readmeImages/registerT1.png" alt="Register tablet">
+
+<img src="readmeImages/loginT1.png" alt="Login tablet">
+
+<img src="readmeImages/homeM1.png" alt="Home movil">
+
+<img src="readmeImages/registerM1.png" alt="Register movil">
+
+<img src="readmeImages/loginM1.png" alt="Login movil">
