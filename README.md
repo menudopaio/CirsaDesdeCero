@@ -107,14 +107,14 @@ Some more samples:
 
 Other screen sizes:
 
-<img src="readmeImages/homeT1.pngg" alt="Home tablet">
+<img src="readmeImages/homeT1.png" alt="Home tablet">
 
-<img src="readmeImages/registerT1.pngg" alt="Register tablet">
+<img src="readmeImages/registerT1.png" alt="Register tablet">
 
-<img src="readmeImages/loginT1.pngg" alt="Login tablet">
+<img src="readmeImages/loginT1.png" alt="Login tablet">
 
-<img src="readmeImages/homeM1.pngg" alt="Home mobile">
+<img src="readmeImages/homeM1.png" alt="Home mobile">
 
-<img src="readmeImages/registerM1.pngg" alt="Register mobile">
+<img src="readmeImages/registerM1.png" alt="Register mobile">
 
-<img src="readmeImages/loginM1.pngg" alt="Login mobile">
+<img src="readmeImages/loginM1.png" alt="Login mobile">
