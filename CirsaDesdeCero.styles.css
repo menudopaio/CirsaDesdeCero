@@ -72,7 +72,7 @@ main[b-qr7z8mkyn8] {
     .logo-footer[b-qr7z8mkyn8] {
         flex: 1;
         padding: 1px;
-        margin: 3px 5px;
+        margin: 3px 0;
     }
 }
 
@@ -126,7 +126,7 @@ main[b-qr7z8mkyn8] {
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
     z-index: 1;
     border-radius: 8px;
-    top: 5rem;
+    top: 4rem;
     right: 3rem;
 }
 .dropdown:hover .dropdown-content[b-7csxf3x4u7] {
