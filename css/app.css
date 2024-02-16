@@ -702,7 +702,7 @@ h1:focus {
 
 }
 
-@media only screen and (max-width: 1194px) {
+/* @media only screen and (max-width: 1194px) {
     .dashboard-container {
         display: grid;
         grid-template-columns: 1fr 4fr;
@@ -766,7 +766,7 @@ h1:focus {
         grid-column: 2;
         grid-row: 6;
     }
-}
+} */
 
 @media only screen and (max-width: 952px) and (min-width: 910px) {
     .inout-container {
