@@ -50,12 +50,12 @@ Como es una página web estática sin backend, ninguna de la información propor
 
 Para instalar y ejecutar este proyecto Blazor WebAssembly en tu entorno local, sigue estos pasos:
 
-#### 1. Prerequisitos
+#### Prerequisitos
 
 * Asegurate de tener instalado .NET SDK en tu sistema. Se recomienda usar la version 8.0.100 o superior.  
 * Necesitarás un editor de código como Visual Studio Code o Visual Studio para trabajar con el proyecto.
 
-#### 2. Clona el repositorio
+#### Clona el repositorio
 
 Clona este repositorio a tu maquina local usando Git:
 
@@ -65,11 +65,11 @@ Entra en el directorio raíz del proyecto:
 
 `cd CirsaDesdeCero`
 
-#### 3. Cambia la etiqueta `<base>`:
+#### Cambia la etiqueta `<base>`:
 
 En `index.html`, dentro de `wwwroot`, comenta la etiqueta de GITHUB, y descomenta la etiqueta de LOCALHOST señaladas con comentarios.
 
-#### 4. Compilar y ejecutar:
+#### Compilar y ejecutar:
 
 Abre una terminal en la raíz del proyecto y ejecuta el siguiente comando para construir y ejecutar el proyecto:
 
