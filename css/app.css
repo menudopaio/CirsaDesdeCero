@@ -412,7 +412,6 @@ h1:focus {
     height: 2rem;
     top: 0;
     right: 0;
-    z-index: 10;
     transform: rotateZ(45deg);
 }
 
