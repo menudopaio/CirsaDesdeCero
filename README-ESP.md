@@ -87,7 +87,7 @@ Desde la pagina principal `Home`, puedes registrarte haciendo click en el boton 
 
 <img src="readmeImages/login.png" alt="Pagina de login">
 
-Una vez logueado, puedes ver una dashboard con alguna información sobre tu cuenta, como tu link de afiliado, cuanta gente se ha registrado a través de tu link, tu actual balance, desde donde estan comprando tus productos, y otra información útil. Por supuesto, toda la información son sólo variables, pues no podemos acceder a una base de datos desde github.
+Una vez logueado, puedes ver una dashboard con alguna información sobre tu cuenta, como tu link de afiliado, cuanta gente se ha registrado a través de tu link, tu balance actual, desde donde estan comprando tus productos, y otra información útil. Por supuesto, toda la información son sólo variables, pues no podemos acceder a una base de datos desde github.
 
 <img src="readmeImages/dashboard.png" alt="Pagina de dashboard">
 
