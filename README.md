@@ -8,6 +8,9 @@
 ## Test Password: qwertyuiop  
 [https://menudopaio.github.io/CirsaDesdeCero](https://menudopaio.github.io/CirsaDesdeCero)
 
+## TABLE OF CONTENTS:
+- [Background](#Background)
+
 ### Background
 
 *CIRSA is looking to expand and has created an affiliate program so that the person who helps can also win. In order to carry it out, capable developers are needed to create an innovative web application with good design. This is why we are asking to create several views that fit CIRSA's design and solve this problem.*
