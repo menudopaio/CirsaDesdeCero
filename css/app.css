@@ -396,21 +396,24 @@ h1:focus {
 .c4 {
     grid-column: 4;
 }
+.child11 {
+    position: relative;
+}
 .child11 button {
     border: none;
     background-color: transparent;
 }
-.child11 img {
+.child11 .image {
     height: 5rem;
 }
 .bi-plus-square-fill-nav-menu2 {
-    background-image: url("images/arrow-down.png");
-    position: relative;
-    width: 1.5rem;
-    height: 1.5rem;
-    top: 0rem;
-    right: 0rem;
-    transform: rotateX(45deg);
+    position: absolute;
+    width: 2.6rem;
+    height: 2rem;
+    top: 0;
+    right: 0;
+    z-index: 10;
+    transform: rotateZ(45deg);
 }
 
 .child12 {
