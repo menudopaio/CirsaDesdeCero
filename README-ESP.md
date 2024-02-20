@@ -95,7 +95,7 @@ Aparte de la información de tu cuenta, hay una sección para editar algunos est
 
 <img src="readmeImages/editStyles.png" alt="Pagina de edicion de estilos">
 
-Haciendo click en el boton `Check View`, puedes ver como queda la pagina de registro del cliente.
+Haciendo click en el boton `Check View`, puedes ver como queda la página de registro del cliente.
 
 <img src="readmeImages/customRegisterCyan.png" alt="Custom register page Cyan Sample">
 
