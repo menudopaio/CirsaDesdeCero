@@ -36,7 +36,10 @@
         <text class="texto">$ @accumulatedEarnings</text>
     </div>
     <div class="child c2 r1 child21">
-        <img src="images/url-icon.png" alt="Url icon" title="Unique affiliate URL" />
+        <button class="custButton" @onclick="@CopiarAlPortapapeles">
+            <img src="images/url-icon.png" alt="Url icon" title="Unique affiliate URL" />
+        </button>
+        <div id="tooltip" style="display: none;">Texto copiado al portapapeles</div>
         <div class="dashboard-url-text">
             <label for="@rutaActual/clientRegister">AFFILIATE UNIQUE URL</label>
             <input type="text" id="@rutaActual/clientRegister" name="@rutaActual/clientRegister" value="@rutaActual/clientRegister" disabled />
@@ -99,10 +102,12 @@
 
 @inject NavigationManager NavigationManager
 @inject NavigationManager RedirectManager
+@inject IJSRuntime JSRuntime
 
 @code {
-    private string rutaActual = "";
+    public string rutaActual = "";
     private string baseUri = "";
+    private string textoACopiar = "";
     protected override void OnInitialized()
     {
         // Obtener la ruta actual usando NavigationManager
@@ -110,10 +115,43 @@
 
         // Obtener la base URI usando RedirectManager
         baseUri = RedirectManager.BaseUri;
+        // Inicializar textoACopiar después de obtener la ruta actual
+        textoACopiar = rutaActual + "/clientRegister";
     }
 
     private void RedirectEdit ()
     {
         NavigationManager.NavigateTo(baseUri + "editstyles");
     }
+
+    private async Task CopiarAlPortapapeles()
+    {
+        // Llamar a la función de JavaScript que copia el texto al portapapeles
+        await JSRuntime.InvokeVoidAsync("navigator.clipboard.writeText", textoACopiar);
+        
+        // Mostrar el tooltip
+        await JSRuntime.InvokeVoidAsync("MostrarTooltip");
+        
+        // Ocultar el tooltip después de unos segundos
+        await Task.Delay(2000); // Espera 2 segundos
+        await JSRuntime.InvokeVoidAsync("OcultarTooltip");
+    }
 }
+
+<script>
+    window.MostrarTooltip = function() {
+        var tooltip = document.getElementById("tooltip");
+        tooltip.style.display = "block";
+        
+        // Posicionar el tooltip encima del cursor
+        document.addEventListener("mousemove", function(event) {
+            tooltip.style.top = (event.clientY + 10) + "px";
+            tooltip.style.left = (event.clientX + 10) + "px";
+        });
+    }
+    
+    window.OcultarTooltip = function() {
+        var tooltip = document.getElementById("tooltip");
+        tooltip.style.display = "none";
+    }
+</script>
