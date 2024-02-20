@@ -24,7 +24,7 @@
 
 *El stack propuesto para este reto es C# y Blazor como framework.*
 
-Empecé esta pagina web sin ningun conocimiento previo de .Net o Blazor, pero aprenderlos a usar no ha sido el reto. La parte mas difícil de este proyecto ha sido desplegarlo con éxito en github pages. Ha sido una odisea darme cuenta de qué estaba fallando; solamente siguiendo los errores no me ayudaba en ningun sentido, hasta que encontré [EL](https://www.youtube.com/watch?v=nNxII6jvPvQ) video.
+Empecé esta pagina web sin conocimiento previo de .Net o Blazor, pero aprenderlos a usar no ha sido lo mas difícil. La parte mas difícil de este proyecto ha sido desplegarlo con éxito en github pages. Ha sido una odisea darme cuenta de qué estaba fallando; solamente siguiendo los errores no me ayudaba en ningun sentido, hasta que encontré [EL](https://www.youtube.com/watch?v=nNxII6jvPvQ) video.
 
 El asunto principal con github pages y las aplicaciones Blazor es que:
 
