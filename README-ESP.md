@@ -65,7 +65,7 @@ Entra en el directorio raíz del proyecto:
 
 `cd CirsaDesdeCero`
 
-#### Cambia la etiqueta base:
+#### Cambiar la etiqueta base:
 
 En `index.html`, dentro de `wwwroot`, comenta la etiqueta de GITHUB, y descomenta la etiqueta de LOCALHOST señaladas con comentarios.
 
