@@ -4,9 +4,19 @@
 ![Blazor](https://img.shields.io/badge/Blazor-512BD4?style=for-the-badge&logo=blazor&logoColor=white)
 
 # Cirsa Tech Hub  
-## Test Username: exampleUsername  
-## Test Password: qwertyuiop  
+## Test Nombre de usuario: exampleUsername  
+## Test Contraseña: qwertyuiop  
 [https://menudopaio.github.io/CirsaDesdeCero](https://menudopaio.github.io/CirsaDesdeCero)
+
+## INDICE:
+- [Background](#Background)
+- [Instalación](#Instalacion)
+   1. [Prerequisitos](#Prerequisitos)
+   2. [Clonar el repositorio](#Clonar-el-repositorio)
+   3. [Cambiar la etiqueta base](#Cambiar-la-etiqueta-base)
+   4. [Compilar y ejecutar](#Compilar-y-ejecutar)
+- [Modo de uso y ejemplos](#Modo-de-uso-y-ejemplos)
+
 
 ### Background
 
@@ -55,7 +65,7 @@ Entra en el directorio raíz del proyecto:
 
 `cd CirsaDesdeCero`
 
-#### 3. Cambia la etiqueta <base>:
+#### 3. Cambia la etiqueta `<base>`:
 
 En `index.html`, dentro de `wwwroot`, comenta la etiqueta de GITHUB, y descomenta la etiqueta de LOCALHOST señaladas con comentarios.
 
@@ -67,7 +77,7 @@ Abre una terminal en la raíz del proyecto y ejecuta el siguiente comando para c
 
 Esto construira el proyecto y lo ejecutara localmente. Una vez iniciado, puedes acceder a la aplicacion a traves del navegador en el localhost proporcionado por tu IDE.
 
-### Usage
+### Modo de uso y ejemplos
 
 Desde la pagina principal `Home`, puedes registrarte haciendo click en el boton `Register`, o a través del botón `Join In`. En la pagina principal, tambien encontramos links a algunos departamentos externos de la compañía, como otros productos, contactos, media, o noticias. Registrarse no es posible, pero puedes utilizar el nombre de usuario y contraseña proporcionados para ver las funcionalidades que tiene la pagina web. 
 
