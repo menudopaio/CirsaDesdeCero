@@ -91,7 +91,7 @@ Una vez logueado, puedes ver una dashboard con alguna información sobre tu cuen
 
 <img src="readmeImages/dashboard.png" alt="Pagina de dashboard">
 
-Aparte de la información de tu cuenta, hay una sección para editar algunos estilos de tu pagina de dashboard. También seran aplicados a la pagina de registro a través de tu link de afiliado. Haciendo click en la imagen de la esquina superior izquierda, puedes modificar la fuente, color y grosor de algunos textos de tu dashboard y de la pagina de registro de tus clientes, asi como el color de fondo del dashboard y de la pagina de registro, con algunos menus desplegables. Tambien puedes editar la bienvenida para la pagina de registro. Como cuelquier otro formulario en github, esto no sera guardado.
+Aparte de la información de tu cuenta, hay una sección para editar algunos estilos de tu pagina de dashboard. También serán aplicados a la página de registro a través de tu link de afiliado. Haciendo click en la imagen de la esquina superior izquierda, puedes modificar la fuente, color y grosor de algunos textos de tu dashboard y de la pagina de registro de tus clientes, asi como el color de fondo del dashboard y de la pagina de registro, con algunos menus desplegables. Tambien puedes editar la bienvenida para la pagina de registro. Como cuelquier otro formulario en github, esto no sera guardado.
 
 <img src="readmeImages/editStyles.png" alt="Pagina de edicion de estilos">
 
