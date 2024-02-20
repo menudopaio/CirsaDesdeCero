@@ -8,6 +8,15 @@
 ## Test Password: qwertyuiop  
 [https://menudopaio.github.io/CirsaDesdeCero](https://menudopaio.github.io/CirsaDesdeCero)
 
+## TABLE OF CONTENTS:
+- [Background](#Background)
+- [Installation](#Installation)
+   1. [Prerequisites](#Prerequisites)
+   2. [Clone the repository](#Clone-the-repository)
+   3. [Change the base tag](#Change-the-base-tag)
+   4. [Build and run](#Build-and-run)
+- [Usage and samples](#Usage-and-samples)
+
 ### Background
 
 *CIRSA is looking to expand and has created an affiliate program so that the person who helps can also win. In order to carry it out, capable developers are needed to create an innovative web application with good design. This is why we are asking to create several views that fit CIRSA's design and solve this problem.*
@@ -67,7 +76,7 @@ Open a terminal in the project's root folder and run the following command to bu
 
 This will build the project and run it locally. Once it's up and running, you can access the application from your browser at the provided localhost.
 
-### Usage
+### Usage and samples
 
 From the `Home` page, you can register by either clicking on the `Register` button or by the `Join In` button. In the home page we also find links to some company external departments, such as other products, contact, media, or news. Registering is not possible, but you can use the provided username and password  to log in and check the website functionalities.
 
