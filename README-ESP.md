@@ -73,7 +73,7 @@ En `index.html`, dentro de `wwwroot`, comenta la etiqueta de GITHUB, y descoment
 
 Abre una terminal en la raíz del proyecto y ejecuta el siguiente comando para construir y ejecutar el proyecto:
 
-`dotnet run´
+`dotnet run`
 
 Esto construira el proyecto y lo ejecutara localmente. Una vez iniciado, puedes acceder a la aplicacion a traves del navegador en el localhost proporcionado por tu IDE.
 
