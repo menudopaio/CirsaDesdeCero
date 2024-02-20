@@ -103,7 +103,7 @@ O haciendo click en el boton `Save`, puedes ver como queda el dashboard.
 
 <img src="readmeImages/customDashboardBlue.png" alt="Custom Dashboard page Cyan Sample">
 
-Finalmente, puedes compartir tu link de afiliado para que cualquiera puede registrarse a través de esta reestilizada página, y comprar productos haciéndote ganar una comisión por cada venta.
+Finalmente, puedes hacer click en el icono de enlace a la izquierda de tu link único de afiliado para copiarlo en tu portapapeles, y asi compartirlo con quien quieras. Cualquiera puede registrarse a través de tu reestilizada página y comprar productos haciéndote ganar una comisión por cada venta.
 
 Algunas muestras más:
 
