@@ -79,7 +79,7 @@ Esto construirá el proyecto y lo ejecutará localmente. Una vez iniciado, puede
 
 ### Modo de uso y ejemplos
 
-Desde la pagina principal `Home`, puedes registrarte haciendo click en el boton `Register`, o a través del botón `Join In`. En la pagina principal, tambien encontramos links a algunos departamentos externos de la compañía, como otros productos, contactos, media, o noticias. Registrarse no es posible, pero puedes utilizar el nombre de usuario y contraseña proporcionados para ver las funcionalidades que tiene la pagina web. 
+Desde la pagina principal `Home`, puedes registrarte haciendo click en el boton `Register`, o a través del botón `Join In`. En la pagina principal, también encontramos links a algunos departamentos externos de la compañía, como otros productos, contactos, medios, o noticias. Registrarse no es posible, pero puedes utilizar el nombre de usuario y contraseña proporcionados para ver las funcionalidades que tiene la pagina web. 
 
 <img src="readmeImages/home.png" alt="Pagina principal">
 
