@@ -344,8 +344,13 @@ h1:focus {
     grid-template-rows: 2fr 4fr 3fr;
     justify-content: space-between;
     background-color: #fff2d3;
+    background-image: url('../images/logo-original.png');
+    background-size: auto;
+    background-position: center 17%;
+    background-repeat: no-repeat;
     width: 100vw;
     height: 100vh;
+    z-index: 0;
 }
     .dashboard-container input {
         padding-left: 0.6rem;
