@@ -46,7 +46,7 @@ Paara crear un workflow, tienes que automatizar el proceso completo de lo que ha
 
 Como es una página web estática sin backend, ninguna de la información proporcionada en cualquier formulario va a ser guardada o procesada.
 
-### Instalación
+### Instalacion
 
 Para instalar y ejecutar este proyecto Blazor WebAssembly en tu entorno local, sigue estos pasos:
 
