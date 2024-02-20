@@ -69,7 +69,7 @@ Entra en el directorio raíz del proyecto:
 
 En `index.html`, dentro de `wwwroot`, comenta la etiqueta de GITHUB, y descomenta la etiqueta de LOCALHOST señaladas con comentarios.
 
-#### 4. Construir y ejecutar (build and run):
+#### 4. Compilar y ejecutar:
 
 Abre una terminal en la raíz del proyecto y ejecuta el siguiente comando para construir y ejecutar el proyecto:
 
