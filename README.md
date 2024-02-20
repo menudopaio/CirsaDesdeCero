@@ -55,7 +55,7 @@ Enter the root directory of the project.
 
 `cd CirsaDesdeCero`
 
-#### 3. Change the <base> tag
+#### 3. Change the `<base>` tag
 
 In `index.html`, inside `wwwroot`, comment the GITHUB base tag and uncomment the LOCALHOST base tag.
 
