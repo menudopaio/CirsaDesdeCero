@@ -40,7 +40,7 @@ El asunto principal con github pages y las aplicaciones Blazor es que:
    --> En la etiqueta `<base>` en `index.html`, cambia `("/")` por `("/NombreDeTuProyecto/")`.  
    Github despliega tu pagina web en `nombreDeUsuario.github.io/NombreDeTuProyecto`, asi que la raíz de tu proyecto es esta.
 
-El último contratiempo que tuve fue crear el workflow (flujo de trabajo). Antes de este proyecto ni siquiera sabia que existían. Son muy potentes, pero como cualquier cosa, debes saber como usarlos. Lo resolví mirando varios proyectos blazor de otras personas para entender qué estaba pasando, y también mirando varios videos (encontrando la solución otra vez en [EL](https://www.youtube.com/watch?v=nNxII6jvPvQ) mismo video de antes.) Todo en 16 minutos. La cuestión era encontrarlo!
+El último contratiempo que tuve fue crear el workflow (flujo de trabajo). Antes de este proyecto ni siquiera sabia que existían. Son muy potentes, pero como cualquier cosa, debes saber cómo usarlos. Lo resolví mirando varios proyectos blazor de otras personas para entender qué estaba pasando, y también mirando varios videos (encontrando la solución otra vez en [EL](https://www.youtube.com/watch?v=nNxII6jvPvQ) mismo video de antes.) Todo en 16 minutos. La cuestión era encontrarlo!
 
 Paara crear un workflow, tienes que automatizar el proceso completo de lo que harias manualmente: entrar en la rama que contiene el proyecto, configurar dotnet, instalar herramientas webAssembly, publicarlo, y "comprometerlo" (commit) a github pages utilizando tu token de acceso personal (PAT). Finalmente tambien añadí al workflow la creación del archivo .nojekyll, así como el archivo 404.html y la cuestión de las rutas, como hacía en el video, pero no es necesario automatizar esto.
 
