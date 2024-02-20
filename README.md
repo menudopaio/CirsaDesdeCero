@@ -93,7 +93,7 @@ Or by clicking on the Save button, you can see how the dashboard is combined.
 
 <img src="readmeImages/customDashboardBlue.png" alt="Custom Dashboard page Cyan Sample">
 
-Finally, you can share your unique affiliate link, so anyone can register through this new styled page, and buy products making you earn a comission for each sale.
+Finally, you can click on the chain icon at the left of your unique affiliate link to copy it to your clipboard, so you can share it with anyone you want. Anyone can register through this new styled page, and buy products making you earn a comission for each sale.  
 
 Some more samples:
 
