@@ -75,7 +75,7 @@ Abre una terminal en la raíz del proyecto y ejecuta el siguiente comando para c
 
 `dotnet run`
 
-Esto construira el proyecto y lo ejecutara localmente. Una vez iniciado, puedes acceder a la aplicacion a traves del navegador en el localhost proporcionado por tu IDE.
+Esto construirá el proyecto y lo ejecutará localmente. Una vez iniciado, puedes acceder a la aplicación a traves del navegador en el localhost proporcionado por tu IDE.
 
 ### Modo de uso y ejemplos
 
